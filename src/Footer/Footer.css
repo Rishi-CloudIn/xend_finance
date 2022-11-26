@@ -1,0 +1,47 @@
+.footer-h5 {
+  font-size: large;
+  color: white;
+  font-weight: 600;
+}
+
+.footer-ul p a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  font-weight: 400;
+}
+
+.footer-ul p {
+  margin-bottom: 3px;
+}
+
+.footer-p {
+  font-size: medium;
+  color: white;
+}
+
+.footer-btn {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  padding: 8px 16px;
+  border-radius: 24px;
+  transition: 0.3s;
+}
+.footer-btn:hover {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 24px;
+  transition: 0.3s;
+}
+
+/* policy */
+
+.policy-1 p a {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+  word-wrap: break-word;
+}

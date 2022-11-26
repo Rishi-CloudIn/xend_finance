@@ -6,6 +6,9 @@
   z-index: 999;
 }
 
+.navbar-bg {
+  background-color: white !important;
+}
 .navbar-logo {
   width: auto;
   height: auto;

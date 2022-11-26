@@ -1,0 +1,32 @@
+.journey-h1 {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.journey-p {
+  font-size: medium;
+  font-weight: 500;
+  width: 80%;
+  margin: 20px auto;
+}
+.h1-h1 {
+  font-size: xx-large;
+}
+
+.h1-ul li {
+  font-size: medium;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+
+.nav-link.active {
+  font-size: medium !important;
+  font-weight: 600 !important;
+  color: var(--black-color) !important;
+}
+
+.nav-link {
+  color: #495057 !important;
+  font-size: medium !important;
+  font-weight: 400 !important;
+}
