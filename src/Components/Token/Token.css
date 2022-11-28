@@ -17,6 +17,14 @@
   font-size: small;
 }
 
+.token-p textarea {
+  border: none;
+  width: 400px;
+  max-width: 400px;
+  outline: none;
+  
+}
+
 .token-h4 {
   margin-bottom: 0px;
   font-size: medium;

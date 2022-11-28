@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import { MdContentCopy } from 'react-icons/md';
 import { HiExternalLink } from 'react-icons/hi';
 import bscToken from '../../Images/Token/bsc.svg';
@@ -7,8 +7,72 @@ import polygon from '../../Images/Token/polygon.svg';
 import cryptoimg from '../../Images/Token/crypto_img.jpg';
 import coinImg from '../../Images/Token/coin-img.png';
 import './Token.css';
+import Swal from 'sweetalert2';
 function Token ()
 {
+
+  const [ copySuccess, setCopySuccess ] = useState( '' );
+  const textAreaRef = useRef( null );
+
+
+
+  function copyToClipboard ( e )
+  {
+    textAreaRef.current.select();
+    document.execCommand( 'copy' );
+    // This is just personal preference.
+    // I prefer to not show the whole text area selected.
+    e.target.focus();
+    setCopySuccess( 'Copied!' );
+
+    Swal.fire( {
+      position: 'top-end',
+      icon: 'success',
+      title: 'Code Copied Successfully',
+      showConfirmButton: false,
+      timer: 1000
+    } );
+
+  };
+
+  function copy1 ()
+  {
+    navigator.clipboard.writeText( '0x4a080377f83d669d7bb83b3184a8a5e61b500608' );
+    Swal.fire( {
+      position: 'top-end',
+      icon: 'success',
+      title: 'Code Copied Successfully',
+      showConfirmButton: false,
+      timer: 1000
+    } );
+
+  }
+
+  function copy2 ()
+  {
+    navigator.clipboard.writeText( '0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903' );
+    Swal.fire( {
+      position: 'top-end',
+      icon: 'success',
+      title: 'Code Copied Successfully',
+      showConfirmButton: false,
+      timer: 1000
+    } );
+
+  }
+
+
+  function copy3 ()
+  {
+    navigator.clipboard.writeText( '0x86775d0B80B3df266AF5377dB34Ba8f318d715ec' );
+    Swal.fire( {
+      position: 'top-end',
+      icon: 'success',
+      title: 'Code Copied Successfully',
+      showConfirmButton: false,
+      timer: 1000
+    } );
+  }
   return (
     <>
       <div className='container py-5'>
@@ -27,11 +91,11 @@ function Token ()
                       <img src={bscToken} alt="" />
                     </div>
                     <div className='token-text-sec mx-4 overflow-hidden'>
-                      <h4 className='token-h4'>Binance Smart Chain</h4>
+                      <h4 className='token-h4 mt-4'>Binance Smart Chain</h4>
                       <p className='token-p'>0x4a080377f83d669d7bb83b3184a8a5e61b500608
                       </p>
                     </div>
-                    <div className='copy-icon'><i className='fs-2'><MdContentCopy /></i></div>
+                    <div className='copy-icon' onClick={() => copy1()}><i className='fs-2'><MdContentCopy /></i></div>
                   </div>
 
                   <div className='token-1 d-flex align-items-center mt-4 justify-content-around'>
@@ -43,7 +107,7 @@ function Token ()
                       <p className='token-p'>0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903
                       </p>
                     </div>
-                    <div className='copy-icon'><i className='fs-2'><MdContentCopy /></i></div>
+                    <div className='copy-icon' onClick={() => copy2()}><i className='fs-2'><MdContentCopy /></i></div>
                   </div>
 
                   <div className='token-1 d-flex align-items-center mt-4 justify-content-around'>
@@ -55,7 +119,7 @@ function Token ()
                       <p className='token-p'>0x86775d0B80B3df266AF5377dB34Ba8f318d715ec
                       </p>
                     </div>
-                    <div className='copy-icon'><i className='fs-2'><MdContentCopy /></i></div>
+                    <div className='copy-icon' onClick={() => copy3()}><i className='fs-2'><MdContentCopy /></i></div>
                   </div>
 
                 </div>
