@@ -1,26 +1,22 @@
 
 import './App.css';
-import Community from './Components/Community/community';
-import Features from './Components/Features/Features';
-import GetStart from './Components/GetStart/GetStart';
-import Home from './Components/Home/Home';
-import Journey from './Components/Journey/Journey';
-import Token from './Components/Token/Token';
+import HomeApp from './AppsContainer/HomeApp';
 import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
-
+import { Routes, Route, Navigate } from 'react-router-dom';
+import TechBHome from './Components/TechnologyBusinessComponent/TechBHome/TechBHome';
 function App ()
 {
   return (
     <div className="App">
       <Navbar />
-      <Home />
-      <Token />
-      <Features />
-      <Journey />
-      <Community />
-      <GetStart />
+      <Routes>
+        <Route path="/" element={<HomeApp />} />
+        <Route path="/TechBusiness" element={<TechBHome />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
       <Footer />
+
     </div>
   );
 }
