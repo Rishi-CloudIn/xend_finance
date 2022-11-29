@@ -4,7 +4,7 @@ import HomeApp from './AppsContainer/HomeApp';
 import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import TechBHome from './Components/TechnologyBusinessComponent/TechBHome/TechBHome';
+import TechBusApp from './AppsContainer/TechBusApp';
 function App ()
 {
   return (
@@ -12,7 +12,7 @@ function App ()
       <Navbar />
       <Routes>
         <Route path="/" element={<HomeApp />} />
-        <Route path="/TechBusiness" element={<TechBHome />} />
+        <Route path="/Business" element={<TechBusApp />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />

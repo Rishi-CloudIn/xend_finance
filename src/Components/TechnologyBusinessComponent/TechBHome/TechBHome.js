@@ -1,40 +1,84 @@
 import React from 'react';
-
+import './TechBHome.css';
+import officer1 from '../../../Images/Tech-Business/cz.svg';
+import officer3 from '../../../Images/Tech-Business/onajite.svg';
+import officer2 from '../../../Images/Tech-Business/yele.svg';
 
 function TechBHome ()
 {
   return (
     <>
-      <div className='Bus-home'>
-        <div className='container-fluid home-container'>
+      <div className='Bus-home py-5'>
+        <div className='container-fluid mt-5'>
           <div className='container'>
             <div className='home-content-div'>
-              <h1 className='h1 text-center fw-bold'>A Global DeFi Platform for Credit Unions, Cooperatives, and Individuals</h1>
-              <p className='text-center py-3'>You And Your Organization Can Access DeFi, Stable Currencies, And Up To 15% APY On Your Savings</p>
+              <h1 className='h1 text-center fw-bold w-sm-75 w-100 mx-auto'>A Global DeFi Platform for Credit Unions, Cooperatives, and Individuals</h1>
+              <p className='text-center py-3'>You And Your Organization Can Access DeFi, Stable Currencies,<br /> And Up To 15% APY On Your Savings</p>
               <div className='home-btn-group d-flex flex-md-row flex-column justify-content-center align-items-center'>
 
-                <a className='a-remove' href='https://play.google.com/store/apps/details?id=com.xendmobile' target='_blank' rel='noreferrer'>
-                  <button className='home-btn d-flex align-item-center m-3'>
-                    <p className='text-start '>
-                      <span className='btn-small-text uc'>get it on</span><br /><span>Google Play</span>
-                    </p>
+                <a className='a-remove mx-1' href='https://play.google.com/store/apps/details?id=com.xendmobile' target='_blank' rel='noreferrer'>
+                  <button className='bus-btn'>
+                    Contact a Fund Manager
                   </button>
                 </a>
 
-                <a className='a-remove' href='https://apps.apple.com/us/app/xend-finance/id1587050825' target='_blank' rel='noreferrer'>
-                  <button
-                    className='home-btn d-flex align-item-center m-3'>
-                    <p className='text-start '><span className='btn-small-text uc'>download on</span><br /><span>App Store</span>
-                    </p>
+                <a className='a-remove mx-1 mt-md-0 mt-3' href='https://play.google.com/store/apps/details?id=com.xendmobile' target='_blank' rel='noreferrer'>
+                  <button className='bus-btn-2'>
+                    Access 15% Interest Now
                   </button>
                 </a>
-
               </div>
 
 
             </div>
 
           </div>
+
+          <div className='container'>
+            <div className='bus-officer py-5'>
+              <div className='row'>
+                <div className='col-lg-4 col-12 p-3'>
+                  <div className='bus-officer-div d-flex flex-row'>
+                    <div className='bus-officer-img me-2'>
+                      <img src={officer1} alt="img" width={50} />
+                    </div>
+                    <div className='bus-officer-inner'>
+                      <h6 className='bus-officer-h6'>
+                        With their platform, they are able to bring stable currency and DeFi investment opportunities to those who normally wouldn’t have them.</h6>
+                      <p className='bus-officer-p'>Changpeng Zhao-CEO of Binance</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='col-lg-4 col-12  p-3'>
+                  <div className='bus-officer-div d-flex flex-row'>
+                    <div className='bus-officer-img me-2'>
+                      <img src={officer2} alt="img" width={50} />
+                    </div>
+                    <div className='bus-officer-inner'>
+                      <h6 className='bus-officer-h6'>
+                        With their platform, they are able to bring stable currency and DeFi investment opportunities to those who normally wouldn’t have them.</h6>
+                      <p className='bus-officer-p'>Changpeng Zhao-CEO of Binance</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='col-lg-4 col-12  p-3'>
+                  <div className='bus-officer-div d-flex flex-row'>
+                    <div className='bus-officer-img me-2'>
+                      <img src={officer3} alt="img" width={50} />
+                    </div>
+                    <div className='bus-officer-inner'>
+                      <h6 className='bus-officer-h6'>
+                        With their platform, they are able to bring stable currency and DeFi investment opportunities to those who normally wouldn’t have them.</h6>
+                      <p className='bus-officer-p'>Changpeng Zhao-CEO of Binance</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </>

@@ -1,11 +1,11 @@
 import React from 'react';
 import './Features.css';
-import fea1 from '../../Images/Features/high-interest.svg';
-import global from '../../Images/Features/global.svg';
-import flex from '../../Images/Features/flexible.svg';
-import insurance from '../../Images/Features/insurance.svg';
-import stable from '../../Images/Features/stable.svg';
-import earn from '../../Images/Features/earn.svg';
+import fea1 from '../../Images/GB_Fin/high-interest.svg';
+import global from '../../Images/GB_Fin/global.svg';
+import flex from '../../Images/GB_Fin/flexible.svg';
+import insurance from '../../Images/GB_Fin/insurance.svg';
+import stable from '../../Images/GB_Fin/stable.svg';
+import earn from '../../Images/GB_Fin/earn.svg';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 

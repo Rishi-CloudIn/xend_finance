@@ -17,7 +17,7 @@ function Navbar ()
   const [ innerNav1, setInnerNav1 ] = useState( false );
   const handleBusiness = () =>
   {
-    navigate( '/TechBusiness' );
+    navigate( '/Business' );
     setInnerNav( false );
   };
 

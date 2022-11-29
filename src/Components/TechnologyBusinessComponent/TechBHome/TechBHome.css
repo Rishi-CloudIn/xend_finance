@@ -1,0 +1,33 @@
+.bus-btn {
+  font-size: small;
+  border: none;
+  background: linear-gradient(to left, #00a551, #2aace2);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.bus-btn-2 {
+  font-size: small;
+  border: 2px solid var(--black-color);
+  background-color: transparent;
+  color: var(--black-color);
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+/* bus officer */
+
+.bus-officer-h6 {
+  font-size: medium;
+  font-weight: 600;
+}
+
+
+.bus-officer-p {
+  font-size: small;
+  font-weight: 600;
+  color: #b4b4b4;
+}

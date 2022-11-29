@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 926.16 352.56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a551;
+        font-family: Montserrat-Bold, Montserrat;
+        font-size: 115.6px;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".25"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="62.99" y1="172.86" x2="280.46" y2="172.86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a551"/>
+      <stop offset="1" stop-color="#2aace2"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-2" x="12.16" y="12.06" width="322.36" height="322.36" rx="40.98" ry="40.98"/>
+  <path class="cls-3" d="M177.63,98.4V63.87c46.38,2.68,84.98,34.3,98.05,77.08h-36.85c-11.12-23.48-34.09-40.25-61.2-42.55Zm101.06,54.98v-.74h-.12s-35.36,0-35.36,0c0,0,0,.01,0,.02h-65.56v34.44h67.02c-6.24,32.46-33.49,57.45-67.04,60.29v34.53c57.35-3.31,102.83-50.85,102.83-109.03,0-6.67-.63-13.18-1.77-19.51ZM97.55,64.39H62.99v108.17h0c0,.09,0,.18,0,.27,0,58.18,45.49,105.71,102.83,109.03v-34.53c-38.31-3.25-68.39-35.35-68.39-74.49s30.08-71.25,68.39-74.49V63.8c-26.36,1.52-50.19,12.41-68.27,29.35v-28.76Z"/>
+  <text class="cls-1" transform="translate(376.71 213.7)"><tspan x="0" y="0">FINANCE</tspan></text>
+</svg>
