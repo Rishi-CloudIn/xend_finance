@@ -11,10 +11,12 @@ import navMed from '../Images/media-kit.svg';
 function Navbar ()
 {
   let navigate = useNavigate();
-  const [ nav, setNav ] = useState( false );
+  const [ nav, setNav ] = useState( true );
   const [ color, setColor ] = useState( false );
   const [ innerNav, setInnerNav ] = useState( false );
   const [ innerNav1, setInnerNav1 ] = useState( false );
+  const [ innerNav2, setInnerNav2 ] = useState( false );
+
   const handleBusiness = () =>
   {
     navigate( '/Business' );
@@ -29,6 +31,12 @@ function Navbar ()
     setNav( !nav );
   };
 
+  const handleNews = () =>
+  {
+    navigate( '/News_And_Announcements' );
+    setInnerNav( false );
+    setNav( !nav );
+  };
 
   const changeColor = () =>
   {
@@ -56,16 +64,18 @@ function Navbar ()
   {
     setInnerNav1( { clicked: !innerNav1.clicked } );
   }
+
+
   return (
     <>
       <nav>
-        <div className='container-fluid navbar-container'>
-          <div className={color ? 'navbar-content-div navbar-bg d-flex flex-row justify-content-between py-3 px-sm-5' : 'navbar-content-div d-flex flex-row justify-content-between py-3 px-sm-5'}>
+        <div className='container-fluid navbar-container px-0'>
+          <div className={color ? 'navbar-content-div navbar-bg d-flex flex-row justify-content-between py-3 px-sm-5 px-2' : 'navbar-content-div d-flex flex-row justify-content-between py-3 px-sm-5 px-2'}>
             <div className='navbar-logo'>
               <img src={logo} alt="img" />
             </div>
 
-            <div className={!nav ? 'nav-ul-div' : 'nav-ul-div-hide my-auto'}>
+            <div className={!nav ? 'nav-ul-div d-flex align-items-center' : 'nav-ul-div-hide my-auto'}>
               <ul className='nav-ul d-flex flex-md-row flex-column justify-content-around m-0 p-0 align-items-center'>
                 <li className='nav-li me-4'>
                   <NavLink className='uc' to='/' onClick={() => setNav( !nav )}>Home</NavLink>
@@ -74,7 +84,7 @@ function Navbar ()
                   <NavLink className='uc' onClick={() => setInnerNav1( !innerNav1 )}>About</NavLink>
                 </li>
                 <div className={!innerNav1 ? 'nav-inner-ul-1' : 'nav-inner-ul-active-1'}>
-                  <div className='nav-inner-li list-remove'>
+                  <div className='nav-inner-li list-remove' onClick={handleNews}>
                     <div className='d-flex align-items-start'>
                       <div className='nav-inner-img me-3'>
                         <img src={navNews} alt="" />

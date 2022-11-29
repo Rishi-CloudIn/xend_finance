@@ -10,9 +10,7 @@ import { HiExternalLink } from 'react-icons/hi';
 
 
 import coinImg from '../../../Images/Token/coin-img.png';
-import ascendex from '../../../Images/Tech-Token/token/ascendex.svg';
-import gate from '../../../Images/Tech-Token/token/gate-io.svg';
-import uniswap from '../../../Images/Tech-Token/token/uniswap.svg';
+import model from '../../../Images/Tech-Token/token/Xend-Destribution-Model.svg';
 
 
 
@@ -181,21 +179,27 @@ function TechTStatistic ()
           <h1 className='here-h1'>Get $XEND Here</h1>
           <h5 className='here-h5 my-3'>Exchanges that offers $XEND Tokens</h5>
           <div>
-            <a href='void:' className='mx-1'>
+            <a href='void:' className='m-2'>
               <button className='here-btn'><span className='me-2'><img src={coinImg} alt='img' className='here-img' /></span>Gate.io<i className='ms-2'><HiExternalLink /></i></button>
             </a>
-            <a href='void:' className='mx-1'>
+            <a href='void:' className='m-2'>
               <button className='here-btn'><span className='me-2'><img src={coinImg} alt='img' className='here-img' /></span>Ascendex<i className='ms-2'><HiExternalLink /></i></button>
             </a>
-            <a href='void:' className='mx-1'>
+            <a href='void:' className='m-2'>
               <button className='here-btn'><span className='me-2'><img src={coinImg} alt='img' className='here-img' /></span>Uniswap<i className='ms-2'><HiExternalLink /></i></button>
             </a>
-            <a href='void:' className='mx-1'>
+            <a href='void:' className='m-2'>
               <button className='here-btn'><span className='me-2'><img src={coinImg} alt='img' className='here-img' /></span>pancakeswap<i className='ms-2'><HiExternalLink /></i></button>
             </a>
 
           </div>
 
+        </div>
+
+        <div className='container text-center mt-5'>
+          <div className='tech-mod-img-div'>
+            <img src={model} alt="" />
+          </div>
         </div>
       </div>
     </>

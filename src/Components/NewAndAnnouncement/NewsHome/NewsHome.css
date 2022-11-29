@@ -1,0 +1,19 @@
+
+
+.news-home-btn {
+  background: var(--background);
+  color: white;
+  padding: 10px 20px;
+  font-size: small;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.news-home-btn:hover {
+  background: var(--background);
+  color: white;
+  padding: 10px 20px;
+  font-size: small;
+  font-weight: 500;
+  border-radius: 20px;
+}

@@ -1,0 +1,13 @@
+.tech-mod-img-div {
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  max-height: auto;
+  margin: 0px auto;
+
+}
+
+.tech-mod-img-div img {
+  width: 100%;
+  height: auto;
+}
