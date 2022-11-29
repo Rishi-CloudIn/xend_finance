@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React from 'react';
 import { MdContentCopy } from 'react-icons/md';
 import { HiExternalLink } from 'react-icons/hi';
 import bscToken from '../../Images/Token/bsc.svg';
@@ -11,52 +11,56 @@ import Swal from 'sweetalert2';
 function Token ()
 {
 
-  const [ copySuccess, setCopySuccess ] = useState( '' );
-  const textAreaRef = useRef( null );
+  const Toast = Swal.mixin( {
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 1000,
+    timerProgressBar: true,
+    didOpen: ( toast ) =>
+    {
+      toast.addEventListener( 'mouseenter', Swal.stopTimer );
+      toast.addEventListener( 'mouseleave', Swal.resumeTimer );
+    }
+  } );
 
 
 
-  function copyToClipboard ( e )
-  {
-    textAreaRef.current.select();
-    document.execCommand( 'copy' );
-    // This is just personal preference.
-    // I prefer to not show the whole text area selected.
-    e.target.focus();
-    setCopySuccess( 'Copied!' );
+  // function copyToClipboard ( e )
+  // {
+  //   textAreaRef.current.select();
+  //   document.execCommand( 'copy' );
+  //   // This is just personal preference.
+  //   // I prefer to not show the whole text area selected.
+  //   e.target.focus();
+  //   setCopySuccess( 'Copied!' );
 
-    Swal.fire( {
-      position: 'top-end',
-      icon: 'success',
-      title: 'Code Copied Successfully',
-      showConfirmButton: false,
-      timer: 1000
-    } );
+  //   Swal.fire( {
+  //     position: 'top-end',
+  //     icon: 'success',
+  //     title: 'Code Copied Successfully',
+  //     showConfirmButton: false,
+  //     timer: 1000
+  //   } );
 
-  };
+  // };
 
   function copy1 ()
   {
     navigator.clipboard.writeText( '0x4a080377f83d669d7bb83b3184a8a5e61b500608' );
-    Swal.fire( {
-      position: 'top-end',
-      icon: 'success',
-      title: 'Code Copied Successfully',
-      showConfirmButton: false,
-      timer: 1000
-    } );
 
+    Toast.fire( {
+      icon: 'success',
+      title: 'Code Copied Successfully'
+    } );
   }
 
   function copy2 ()
   {
     navigator.clipboard.writeText( '0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903' );
-    Swal.fire( {
-      position: 'top-end',
+    Toast.fire( {
       icon: 'success',
-      title: 'Code Copied Successfully',
-      showConfirmButton: false,
-      timer: 1000
+      title: 'Code Copied Successfully'
     } );
 
   }
@@ -65,12 +69,9 @@ function Token ()
   function copy3 ()
   {
     navigator.clipboard.writeText( '0x86775d0B80B3df266AF5377dB34Ba8f318d715ec' );
-    Swal.fire( {
-      position: 'top-end',
+    Toast.fire( {
       icon: 'success',
-      title: 'Code Copied Successfully',
-      showConfirmButton: false,
-      timer: 1000
+      title: 'Code Copied Successfully'
     } );
   }
   return (

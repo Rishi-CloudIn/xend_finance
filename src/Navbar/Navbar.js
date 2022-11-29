@@ -19,12 +19,14 @@ function Navbar ()
   {
     navigate( '/Business' );
     setInnerNav( false );
+    setNav( !nav );
   };
 
   const handleToken = () =>
   {
-    navigate( '/TechBusiness' );
+    navigate( '/XentToken' );
     setInnerNav( false );
+    setNav( !nav );
   };
 
 

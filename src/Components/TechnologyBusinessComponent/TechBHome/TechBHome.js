@@ -12,7 +12,7 @@ function TechBHome ()
         <div className='container-fluid mt-5'>
           <div className='container'>
             <div className='home-content-div'>
-              <h1 className='h1 text-center fw-bold w-sm-75 w-100 mx-auto'>A Global DeFi Platform for Credit Unions, Cooperatives, and Individuals</h1>
+              <h1 className='h1 text-center fw-bold w-sm-100 w-75 mx-auto'>A Global DeFi Platform for Credit Unions, Cooperatives, and Individuals</h1>
               <p className='text-center py-3'>You And Your Organization Can Access DeFi, Stable Currencies,<br /> And Up To 15% APY On Your Savings</p>
               <div className='home-btn-group d-flex flex-md-row flex-column justify-content-center align-items-center'>
 

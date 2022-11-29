@@ -1,0 +1,50 @@
+.bus-parter-card {
+  background: var(--background) !important;
+  border-radius: 20px !important;
+}
+
+.bus-card-partner-h1 {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.bus-card-partner-p {
+  color: white;
+  text-align: center;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.bus-card-partner-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 27px;
+}
+
+.bus-card-partner-btn:hover {
+  background-color: white;
+  border: 2px solid white;
+  color: #2aace2;
+  padding: 10px 20px;
+  border-radius: 27px;
+}
+
+.bus-card-partner-btn-1 {
+  background-color: white;
+  border: 2px solid white;
+  color: #00a551;
+  padding: 10px 20px;
+  border-radius: 27px;
+}
+
+.bus-card-partner-btn-1:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 27px;
+}

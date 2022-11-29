@@ -5,6 +5,7 @@ import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import TechBusApp from './AppsContainer/TechBusApp';
+import TechTokenApp from './AppsContainer/TechTokenApp';
 function App ()
 {
   return (
@@ -13,6 +14,7 @@ function App ()
       <Routes>
         <Route path="/" element={<HomeApp />} />
         <Route path="/Business" element={<TechBusApp />} />
+        <Route path="/XentToken" element={<TechTokenApp />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />

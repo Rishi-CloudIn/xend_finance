@@ -71,13 +71,13 @@ function TechBSolution ()
 
           <div className='py-5'>
             <div className='row'>
-              <div className="col-6">
-                <div className='bus-sol-img-2'>
+              <div className="col-lg-6 ">
+                <div className='bus-sol-img-2 d-flex justify-content-lg-start justify-content-center'>
                   <img src={learn} alt="" />
                 </div>
               </div>
 
-              <div className='col-6 d-flex flex-row align-items-center'>
+              <div className='col-lg-6 d-flex flex-row align-items-center '>
                 <div className='bus-sol-div-2'>
                   <h2 className='bus-sol-h2-2'>Learn More</h2>
                   <p className='bus-sol-p-2 text-secondary py-4'>You and your organization can access the best of DeFi, Web3, and Blockchain through Xend Finance’s white-labeled technology on your own platform.</p>

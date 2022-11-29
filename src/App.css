@@ -12,7 +12,7 @@ body {
 :root {
   --black-color: #000000;
   --white-color: #ffffff;
-   --background: linear-gradient(to left, #00a551, #2aace2);
+  --background: linear-gradient(to left, #00a551, #2aace2);
 }
 .uc {
   text-transform: uppercase;
@@ -24,4 +24,13 @@ body {
 
 .a-remove {
   text-decoration: none;
+}
+
+.App {
+  background: url("./Images/GB_Fin/Background-01.jpg");
+  background-position: 100% 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
