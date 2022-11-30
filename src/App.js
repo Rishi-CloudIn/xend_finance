@@ -9,6 +9,8 @@ import TechTokenApp from './AppsContainer/TechTokenApp';
 import NewsApp from './AppsContainer/NewsApp';
 import 'animate.css';
 import ScrollToTop from './ScrollToTop';
+import React from 'react';
+
 
 function App ()
 {
