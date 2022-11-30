@@ -10,6 +10,8 @@ import { Link } from 'react-scroll';
 
 function Navbar ()
 {
+
+  
   let navigate = useNavigate();
   const [ nav, setNav ] = useState( true );
   const [ color, setColor ] = useState( false );
