@@ -26,14 +26,14 @@ function Navbar ()
   const handleToken = () =>
   {
     navigate( '/XentToken' );
-    setInnerNav1( false );
+    setInnerNav( false );
     setNav( !nav );
   };
 
   const handleNews = () =>
   {
     navigate( '/News_And_Announcements' );
-    setInnerNav( false );
+    setInnerNav1( false );
     setNav( !nav );
   };
 
@@ -95,7 +95,7 @@ function Navbar ()
                     </div>
                   </div>
                   <hr />
-                  <div className='nav-inner-li list-remove'>
+                  <div className='nav-inner-li list-remove' onClick={handleNews}>
                     <div className='d-flex align-items-start'>
                       <div className='nav-inner-img me-3'>
                         <img src={navMed} alt="" />
