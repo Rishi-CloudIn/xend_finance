@@ -1,7 +1,7 @@
 .home-container {
   width: 100%;
   height: auto;
-  padding-top: 130px;
+  padding-top: 200px;
 }
 
 .home-btn {
@@ -90,4 +90,11 @@
 
 .home-card-p {
   font-size: small;
+}
+
+
+@media screen and (max-width: 768px) {
+  .home-container {
+  padding-top: 130px;
+}
 }

@@ -15,7 +15,7 @@ function Journey ()
           <p className='journey-p text-center'>Xend Finance has crossed many incredible milestones, with many more to come. Below is a detailed roadmap that lays out the past, the present, and a little sneak-peak into the future.</p>
           <div className='tab-view mt-5'>
             <Tabs
-              defaultActiveKey="profile"
+              defaultActiveKey="home"
               id="uncontrolled-tab-example"
               className="mb-3"
             >

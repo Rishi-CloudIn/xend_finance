@@ -5,8 +5,8 @@ import { FiDownload } from 'react-icons/fi';
 import { BsApple } from 'react-icons/bs';
 import { ImAndroid } from 'react-icons/im';
 import { IoMdArrowRoundForward } from 'react-icons/io';
-
-import homeMock from '../../Images/Xend_Finance_Screen_Mockup.svg';
+import homeMock from '../../Images/GB_Fin/Mockup-01.svg';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 function Home ()
 {
   return (
@@ -44,16 +44,16 @@ function Home ()
               </a>
             </div>
 
-            <div className='home-img-div'>
+            <AnimationOnScroll className='home-img-div' animateIn="animate__pulse animate__slower animate__infinite	infinite">
               <img src={homeMock} alt="" />
-            </div>
+            </AnimationOnScroll>
           </div>
 
 
         </div>
         <div className='container'>
           <div className='home-card-div'>
-            <div className='card home-card'>
+            <AnimationOnScroll className='card home-card' animateIn="animate__fadeInUp animate__slower">
               <div className='card-body'>
                 <h1 className='text-center home-card-h1'>For Developers</h1>
                 <p className=' text-center w-75 mx-auto home-card-p my-3'>Xend Finance has created a highly flexible and robust infrastructure to become a Layer-2 DeFi protocol. Composed of multiple Layer-1 DeFi protocols across different blockchains to provide better yields, as opposed to using Layer-1 DeFi yield platforms individually, we invite developers to build for free.</p>
@@ -64,7 +64,7 @@ function Home ()
                 </div>
               </div>
 
-            </div>
+            </AnimationOnScroll>
           </div>
         </div>
       </div>

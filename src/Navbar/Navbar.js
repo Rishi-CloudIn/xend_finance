@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../Images/logo.svg';
+import logo from '../Images/GB_Fin/GFIN_Logo.svg';
 import './Navbar.css';
 import navBus from '../Images/business-nav.svg';
 import navXend from '../Images/Xend.svg';

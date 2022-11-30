@@ -7,6 +7,8 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import TechBusApp from './AppsContainer/TechBusApp';
 import TechTokenApp from './AppsContainer/TechTokenApp';
 import NewsApp from './AppsContainer/NewsApp';
+import 'animate.css';
+
 function App ()
 {
   return (
@@ -20,7 +22,6 @@ function App ()
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
-
     </div>
   );
 }

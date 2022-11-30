@@ -1,6 +1,6 @@
 import React from 'react';
-import growth from '../../Images/Journey/growth-circle.svg';
-import dev from '../../Images/Journey/dev-circle.svg';
+import growth from '../../Images/GB_Fin/growth-circle.svg';
+import dev from '../../Images/GB_Fin/dev-circle.svg';
 import './Journey.css';
 
 function H1 ()
@@ -12,7 +12,7 @@ function H1 ()
           <div className='row'>
             <div className='col-lg-6 col-12'>
               <div className='h1-div-1'>
-                <h1 className='h1-h1 mb-4'><img src={growth} alt="" className='me-3' />Growth</h1>
+                <h1 className='h1-h1 mb-4'><img src={growth} alt="" className='me-3' width={50} />Growth</h1>
                 <ul className='ms-3 mt-4 h1-ul'>
                   <li>Acquiring up to 500,000 users</li>
                   <li>Growing TVL up to $50m</li>
@@ -21,8 +21,8 @@ function H1 ()
               </div>
             </div>
             <div className='col-lg-6 col-12'>
-              <div className='h1-div-2 pt-lg-0 pt-5'>
-                <h1 className='h1-h1 mb-4'><img src={dev} alt="" className='me-3' />Development</h1>
+              <div classNam50e='h1-div-2 pt-lg-0 pt-5'>
+                <h1 className='h1-h1 mb-4'><img src={dev} alt="" className='me-3' width={50} />Development</h1>
                 <ul className=' h1-ul'>
                   <li>Launching of Alpha version Cross Chain</li>
                   <li>DeFi Browser Extension Wallet to support

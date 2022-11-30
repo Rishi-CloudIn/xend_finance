@@ -1,8 +1,8 @@
 import React from 'react';
 import './TechTHome.css';
-import automated from '../../../Images/Tech-Token/automated.svg';
-import governance from '../../../Images/Tech-Token/governance.svg';
-import vault from '../../../Images/Tech-Token/x-vault.svg';
+import automated from '../../../Images/Assets/automated.svg';
+import governance from '../../../Images/Assets/governance.svg';
+import vault from '../../../Images/Assets/x-vault.svg';
 
 function TechTHome ()
 {

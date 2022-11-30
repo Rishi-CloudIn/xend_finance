@@ -3,8 +3,9 @@ import './TechBsolution.css';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import wallet from '../../../Images/Tech-Business/sol/switch-wallet.svg';
 import bridge from '../../../Images/Tech-Business/sol/xend-bridge.svg';
-import icon from '../../../Images/Tech-Business/sol/xend-icon.svg';
-import learn from '../../../Images/Tech-Business/sol/learn-img.svg';
+import icon from '../../../Images/Assets/xend-icon.svg';
+import learn from '../../../Images/Assets/learn-img.svg';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 
 function TechBSolution ()
@@ -17,55 +18,61 @@ function TechBSolution ()
           <h5 className='h5 text-secondary'>Complete tools to empower your business</h5>
           <div className='row'>
             <div className='col-md-6 col-12 p-3'>
-              <div className='card d-flex flex-row h-100'>
-                <div className='bus-sol-img-div me-3'>
-                  <img src={wallet} alt="img" width={30} />
-                </div>
-                <div className='bus-sol-div d-flex flex-column justify-content-between'>
-                  <div>
-                    <h3 className='bus-sol-h3'>SwitchWallet</h3>
-                    <p className='bus-sol-p'>SwitchWallet is a wallet service that allows developers to create and manage wallets for their users on EVM compatible blockchains as well as Bitcoin and Bitcoin Derivative blockchains.</p>
+              <AnimationOnScroll animateIn="animate__fadeIn" className='h-100'>
+                <div className='card d-flex flex-row h-100'>
+                  <div className='bus-sol-img-div me-3'>
+                    <img src={wallet} alt="img" width={30} />
                   </div>
-                  <div>
-                    <a className='a-remove text-dark' href='void'>Learn More <i><AiOutlineArrowRight /></i></a>
-                  </div>
+                  <div className='bus-sol-div d-flex flex-column justify-content-between'>
+                    <div>
+                      <h3 className='bus-sol-h3'>SwitchWallet</h3>
+                      <p className='bus-sol-p'>SwitchWallet is a wallet service that allows developers to create and manage wallets for their users on EVM compatible blockchains as well as Bitcoin and Bitcoin Derivative blockchains.</p>
+                    </div>
+                    <div>
+                      <a className='a-remove text-dark' href='void'>Learn More <i><AiOutlineArrowRight /></i></a>
+                    </div>
 
+                  </div>
                 </div>
-              </div>
+              </AnimationOnScroll>
             </div>
 
             <div className='col-md-6 col-12 p-3'>
-              <div className='card d-flex flex-row h-100'>
-                <div className='bus-sol-img-div me-3'>
-                  <img src={icon} alt="img" width={40} />
-                </div>
-                <div className='bus-sol-div  d-flex flex-column justify-content-between'>
-                  <div>
-                    <h3 className='bus-sol-h3'>Xend Finance AutoYield SDK</h3>
-                    <p className='bus-sol-p'>Our SDK enables other developers to build on the Xend Finance AutoYield protocols such as xVault and xAuto. We also have the SDK-UI which is a javascript plugin for developers that want to integrate Xend Finance directly with very little code. Our SDK makes it easy for non-blockchain developers to access DeFi.</p>
+              <AnimationOnScroll animateIn="animate__fadeIn" className='h-100'>
+                <div className='card d-flex flex-row h-100'>
+                  <div className='bus-sol-img-div me-3'>
+                    <img src={icon} alt="img" width={40} />
                   </div>
-                  <div>
-                    <a className='a-remove text-dark' href='void'>Learn More <i><AiOutlineArrowRight /></i></a>
+                  <div className='bus-sol-div  d-flex flex-column justify-content-between'>
+                    <div>
+                      <h3 className='bus-sol-h3'>Xend Finance AutoYield SDK</h3>
+                      <p className='bus-sol-p'>Our SDK enables other developers to build on the Xend Finance AutoYield protocols such as xVault and xAuto. We also have the SDK-UI which is a javascript plugin for developers that want to integrate Xend Finance directly with very little code. Our SDK makes it easy for non-blockchain developers to access DeFi.</p>
+                    </div>
+                    <div>
+                      <a className='a-remove text-dark' href='void'>Learn More <i><AiOutlineArrowRight /></i></a>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </AnimationOnScroll>
             </div>
 
             <div className='col-md-6 col-12 p-3'>
-              <div className='card d-flex flex-row h-100'>
-                <div className='bus-sol-img-div me-3'>
-                  <img src={bridge} alt="img" width={40} />
-                </div>
-                <div className='bus-sol-div  d-flex flex-column justify-content-between'>
-                  <div>
-                    <h3 className='bus-sol-h3'>XendBridge</h3>
-                    <p className='bus-sol-p'>XendBridge enables users to convert their local currencies to crypto currencies and vice versa. The XendBridge comes as a library for android or iOS and also an API for developers to integrate into their web or mobile apps.</p>
+              <AnimationOnScroll animateIn="animate__fadeIn" className='h-100'>
+                <div className='card d-flex flex-row h-100'>
+                  <div className='bus-sol-img-div me-3'>
+                    <img src={bridge} alt="img" width={40} />
                   </div>
-                  <div>
-                    <a className='a-remove text-dark' href='void'>Learn More <i><AiOutlineArrowRight /></i></a>
+                  <div className='bus-sol-div  d-flex flex-column justify-content-between'>
+                    <div>
+                      <h3 className='bus-sol-h3'>XendBridge</h3>
+                      <p className='bus-sol-p'>XendBridge enables users to convert their local currencies to crypto currencies and vice versa. The XendBridge comes as a library for android or iOS and also an API for developers to integrate into their web or mobile apps.</p>
+                    </div>
+                    <div>
+                      <a className='a-remove text-dark' href='void'>Learn More <i><AiOutlineArrowRight /></i></a>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </AnimationOnScroll>
             </div>
           </div>
 

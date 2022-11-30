@@ -10,7 +10,7 @@ import { HiExternalLink } from 'react-icons/hi';
 
 
 import coinImg from '../../../Images/Token/coin-img.png';
-import model from '../../../Images/Tech-Token/token/Xend-Destribution-Model.svg';
+import model from '../../../Images/Assets/Xend-Destribution-Model.svg';
 
 
 
