@@ -15,7 +15,6 @@ function Navbar ()
   const [ color, setColor ] = useState( false );
   const [ innerNav, setInnerNav ] = useState( false );
   const [ innerNav1, setInnerNav1 ] = useState( false );
-  const [ innerNav2, setInnerNav2 ] = useState( false );
 
   const handleBusiness = () =>
   {
@@ -27,7 +26,7 @@ function Navbar ()
   const handleToken = () =>
   {
     navigate( '/XentToken' );
-    setInnerNav( false );
+    setInnerNav1( false );
     setNav( !nav );
   };
 
@@ -75,7 +74,7 @@ function Navbar ()
               <img src={logo} alt="img" />
             </div>
 
-            <div className={!nav ? 'nav-ul-div d-flex align-items-center' : 'nav-ul-div-hide my-auto'}>
+            <div className={!nav ? 'nav-ul-div my-auto' : 'nav-ul-div-hide my-auto'}>
               <ul className='nav-ul d-flex flex-md-row flex-column justify-content-around m-0 p-0 align-items-center'>
                 <li className='nav-li me-4'>
                   <NavLink className='uc' to='/' onClick={() => setNav( !nav )}>Home</NavLink>
