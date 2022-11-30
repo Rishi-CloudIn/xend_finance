@@ -23,9 +23,11 @@ function Contact ()
               <div className='contact-form-div'>
                 <form>
                   <div className='row p-sm-4 p-1'>
+
                     <div className='col-6 p-sm-3 p-2'>
                       <input type="text" name="name" className='form-input w-100' placeholder='Name' />
                     </div>
+
 
                     <div className='col-6 p-sm-3 p-2'>
                       <input type="email" name="email" className='form-input w-100' placeholder='Email Id' />
