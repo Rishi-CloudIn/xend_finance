@@ -79,7 +79,7 @@ function TechBSolution ()
           <div className='py-5'>
             <div className='row'>
               <div className="col-lg-6 ">
-                <div className='bus-sol-img-2 d-flex justify-content-lg-start justify-content-center'>
+                <div className='bus-sol-img-2 mx-md-0 mx-auto'>
                   <img src={learn} alt="" />
                 </div>
               </div>

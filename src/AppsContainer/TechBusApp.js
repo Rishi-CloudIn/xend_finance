@@ -5,12 +5,14 @@ import TechBbenefits from '../Components/TechnologyBusinessComponent/TechBbenefi
 import TechBHome from '../Components/TechnologyBusinessComponent/TechBHome/TechBHome';
 import TechBPartner from '../Components/TechnologyBusinessComponent/TechBPartner/TechBPartner';
 import TechBSolution from '../Components/TechnologyBusinessComponent/TechBSolution/TechBsolution';
+import Navbar from '../Navbar/Navbar';
 
 
 function TechBusApp ()
 {
   return (
     <>
+      <Navbar/>
       <TechBHome />
       <TechBbenefits />
       <TechBSolution />

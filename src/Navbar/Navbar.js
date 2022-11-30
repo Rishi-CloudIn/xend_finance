@@ -6,7 +6,7 @@ import navXend from '../Images/Xend.svg';
 import { useNavigate, NavLink } from 'react-router-dom';
 import navNews from '../Images/news.svg';
 import navMed from '../Images/media-kit.svg';
-
+import { Link } from 'react-scroll';
 
 function Navbar ()
 {
@@ -107,9 +107,9 @@ function Navbar ()
                     </div>
                   </div>
                 </div>
-                <li className='nav-li me-4'>
+                {/* <li className='nav-li me-4'>
                   <a href='void:' className='uc' >Products</a>
-                </li>
+                </li> */}
                 <li className='nav-li me-4'>
                   <a href='void:' className='uc' onClick={() => setInnerNav( !innerNav )}>Technology</a>
                 </li>
@@ -139,7 +139,12 @@ function Navbar ()
                   </div>
                 </div>
                 <li className='nav-li me-4'>
-                  <a href='void:' className='uc' >Faq</a>
+                  <Link
+                    activeClass="active"
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    duration={500} className='uc cursor-pointer' >Contact</Link>
                 </li>
               </ul>
             </div>

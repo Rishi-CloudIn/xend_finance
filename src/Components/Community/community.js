@@ -6,7 +6,7 @@ function Community ()
 {
   return (
     <>
-      <div className='container community-container py-5'>
+      <div className='container community-container py-5' >
         <div className='community-content-div'>
           <h1 className='journey-h1 text-center'>Join Our Communities</h1>
           <p className='journey-p text-center'>Be the first to learn about company updates, product launches, and giveaways.</p>
