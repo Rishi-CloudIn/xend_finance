@@ -51,16 +51,24 @@
 
 .nav-li a {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: small;
   color: #333;
 }
 
 .nav-li a:hover {
-  color: #00a551;
+  background: linear-gradient(to left, #00a551, #2aace2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 .nav-ul-div {
   position: relative;
+}
+
+.navbar-content-div {
+  padding-left: 100px;
+  padding-right: 150px;
 }
 
 @media screen and (max-width: 768px) {
@@ -203,5 +211,10 @@
   .nav-inner-p {
     font-size: 9px;
     text-align: start;
+  }
+
+  .navbar-content-div {
+    padding-left: 20px;
+    padding-right: 30px;
   }
 }

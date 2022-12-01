@@ -76,7 +76,7 @@ function TechTStatistic ()
   return (
     <>
       <div className='container py-5'>
-        <h1 className='h1 fw-bold text-center'>$Xend Token Price Statistics</h1>
+        <h1 className='h1 fw-bold text-center linear-text py-4'>$Xend Token Price Statistics</h1>
         <div className='statis-content-div table-responsive-md'>
           <table className='table table-light table-bordered '>
             <tbody>
@@ -176,7 +176,7 @@ function TechTStatistic ()
         </div>
 
         <div className='container text-center mt-5'>
-          <h1 className='here-h1'>Get $XEND Here</h1>
+          <h1 className='here-h1 linear-text'>Get $XEND Here</h1>
           <h5 className='here-h5 my-3'>Exchanges that offers $XEND Tokens</h5>
           <div>
             <a href='void:' className='m-2'>

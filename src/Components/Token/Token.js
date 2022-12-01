@@ -82,7 +82,7 @@ function Token ()
 
             <div className='col-lg-6 col-12'>
               <div className='token-div-1'>
-                <h1 className='token-h2'>$XEND Token</h1>
+                <h1 className='token-h2 linear-text'>$XEND Token</h1>
                 <p className='token-h6 mt-2 mb-4'>The Xend token ($XEND) powers a decentralized savings and cross-chain high yield aggregator protocol. The $XEND tokens also generate interest for the users as they hold on to the tokens.</p>
                 <h5 className=' token-h5'>Xend Finance Tokens have been issued on below public chains:</h5>
 
@@ -140,8 +140,8 @@ function Token ()
       </div>
 
 
-      <div className='container text-center mt-5'>
-        <h1 className='here-h1'>Get $XEND Here</h1>
+      <div className='container text-center mt-5 pb-md-5'>
+        <h1 className='here-h1 linear-text'>Get $XEND Here</h1>
         <h5 className='here-h5 my-3'>Exchanges that offers $XEND Tokens</h5>
         <button className='here-btn'><span className='me-2'><img src={coinImg} alt='img' className='here-img' /></span>pancakeswap<i className='ms-2'><HiExternalLink /></i></button>
       </div>

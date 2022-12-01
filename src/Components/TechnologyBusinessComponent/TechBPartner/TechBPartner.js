@@ -15,7 +15,7 @@ function TechBPartner ()
   return (
     <>
       <div className='container bus-partner'>
-        <h1 className='h1 text-center fw-bold mb-4'>Investment and Business Partners</h1>
+        <h1 className='h1 text-center fw-bold mb-4 linear-text'>Investment and Business Partners</h1>
         <div className='row justify-content-center'>
           <div className="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
             <div className='card'>

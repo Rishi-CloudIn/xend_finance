@@ -14,8 +14,8 @@ function Features ()
   return (
     <>
       <div className='container mt-5'>
-        <div className='feature-content-div'>
-          <h1 className='here-h2 text-center'>Features</h1>
+        <div className='feature-content-div py-md-5'>
+          <h1 className='here-h2 text-center linear-text'>Features</h1>
           <h5 className='here-h5 text-center'>Every tool you need to optimize your savings potential</h5>
 
           <div className='feature-div'>

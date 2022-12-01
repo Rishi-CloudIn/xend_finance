@@ -13,6 +13,8 @@ body {
   --black-color: #000000;
   --white-color: #ffffff;
   --background: linear-gradient(to left, #00a551, #2aace2);
+  --green-color: #00a551;
+  --blue-color: #2aace2;
 }
 .uc {
   text-transform: uppercase;
@@ -36,4 +38,11 @@ body {
 }
 .cursor-pointer-div {
   cursor: pointer;
+}
+
+.linear-text {
+  background: linear-gradient(to left, #00a551, #2aace2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }

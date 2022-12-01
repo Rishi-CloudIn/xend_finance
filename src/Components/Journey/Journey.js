@@ -10,8 +10,8 @@ function Journey ()
   return (
     <>
       <div className='container journey-container mt-5'>
-        <div className='journey-content-div'>
-          <h1 className='journey-h1 text-center'>The Journey So Far And The Road To Come</h1>
+        <div className='journey-content-div py-5'>
+          <h1 className='journey-h1 text-center linear-text fw-bold'>The Journey So Far And The Road To Come</h1>
           <p className='journey-p text-center'>Xend Finance has crossed many incredible milestones, with many more to come. Below is a detailed roadmap that lays out the past, the present, and a little sneak-peak into the future.</p>
           <div className='tab-view mt-5'>
             <Tabs

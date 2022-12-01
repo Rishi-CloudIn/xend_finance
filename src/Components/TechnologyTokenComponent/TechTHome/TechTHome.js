@@ -11,7 +11,7 @@ function TechTHome ()
       <div className='token-container'>
         <div className='container'>
           <div className='token-content-div pb-5'>
-            <h1 className='h1 text-center fw-bold w-sm-100 w-75 mx-auto'>Xend Finance Token</h1>
+            <h1 className='h1 text-center fw-bold w-sm-100 w-75 mx-auto linear-text'>Xend Finance Token</h1>
             <p className='text-center py-3'>Xend Finance Token ($XEND) powers a decentralized savings and multi-level interest generation protocol built on Ethereum. The $XEND Tokens also generate interest for the users as they hold on to the tokens. Xend Finance allows Credit Unions and Individual savings operations on the smart contract.</p>
             <div className='home-btn-group d-flex flex-md-row flex-column justify-content-center align-items-center'>
             </div>

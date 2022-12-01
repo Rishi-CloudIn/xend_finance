@@ -9,7 +9,7 @@ function NewsHome ()
     <>
       <div className='news-container container'>
         <div className='token-content-div pb-5 mb-5'>
-          <h1 className='h1 text-center fw-bold w-sm-100 w-75 mx-auto'>Xend Media</h1>
+          <h1 className='h1 text-center fw-bold w-sm-100 w-75 mx-auto linear-text'>Xend Media</h1>
           <p className='text-center py-3'>Press information, media kits, and the latest news about Xend can be found here.</p>
           <div className='d-flex justify-content-center'>
             <a href='void:' className='news-home-btn a-remove'>Download our Media Kit</a>
@@ -19,6 +19,7 @@ function NewsHome ()
 
         <div className='press-content-div'>
           <div className='row'>
+            <h1 className='h1 linear-text fw-bold my-2 mb-md-4'>Press Coverage</h1>
             <div className='col-md-6 d-flex align-items-center justify-content-md-start justify-content-center'>
               <div className='press-img'>
                 <img src={press} alt="" />

@@ -14,7 +14,7 @@ function TechBSolution ()
     <>
       <div className='container'>
         <div className='bus-sol-content-div py-5'>
-          <h1 className='h1 fw-bold'>Business Solutions</h1>
+          <h1 className='h1 fw-bold linear-text'>Business Solutions</h1>
           <h5 className='h5 text-secondary'>Complete tools to empower your business</h5>
           <div className='row'>
             <div className='col-md-6 col-12 p-3'>
@@ -86,7 +86,7 @@ function TechBSolution ()
 
               <div className='col-lg-6 d-flex flex-row align-items-center '>
                 <div className='bus-sol-div-2'>
-                  <h2 className='bus-sol-h2-2'>Learn More</h2>
+                  <h2 className='bus-sol-h2-2 linear-text'>Learn More</h2>
                   <p className='bus-sol-p-2 text-secondary py-4'>You and your organization can access the best of DeFi, Web3, and Blockchain through Xend Finance’s white-labeled technology on your own platform.</p>
                   <a className='a-remove bus-sol-btn-2' href='void:'>Go to Docs</a>
                 </div>

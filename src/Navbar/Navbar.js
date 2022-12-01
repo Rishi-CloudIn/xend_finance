@@ -11,7 +11,7 @@ import { Link } from 'react-scroll';
 function Navbar ()
 {
 
-  
+
   let navigate = useNavigate();
   const [ nav, setNav ] = useState( true );
   const [ color, setColor ] = useState( false );
@@ -72,7 +72,7 @@ function Navbar ()
     <>
       <nav>
         <div className='container-fluid navbar-container px-0'>
-          <div className={color ? 'navbar-content-div navbar-bg d-flex flex-row justify-content-between py-3 px-sm-5 px-2' : 'navbar-content-div d-flex flex-row justify-content-between py-3 px-sm-5 px-2'}>
+          <div className={color ? 'navbar-content-div navbar-bg d-flex flex-row justify-content-between py-3 ' : 'navbar-content-div d-flex flex-row justify-content-between py-3 '}>
             <div className='navbar-logo'>
               <img src={logo} alt="img" />
             </div>
@@ -147,7 +147,7 @@ function Navbar ()
                     to="Contact"
                     spy={true}
                     smooth={true}
-                    duration={500} className='uc cursor-pointer' >Contact</Link>
+                    duration={500} className='uc cursor-pointer' onClick={() => setNav( !nav )} >Contact</Link>
                 </li>
               </ul>
             </div>

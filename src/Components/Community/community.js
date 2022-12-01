@@ -8,7 +8,7 @@ function Community ()
     <>
       <div className='container community-container py-5' >
         <div className='community-content-div'>
-          <h1 className='journey-h1 text-center'>Join Our Communities</h1>
+          <h1 className='journey-h1 text-center linear-text'>Join Our Communities</h1>
           <p className='journey-p text-center'>Be the first to learn about company updates, product launches, and giveaways.</p>
           <div className='row d-flex flex-wrap'>
             <div className='col-xl-2 col-md-3 col-sm-4 col-6 p-2 '>
