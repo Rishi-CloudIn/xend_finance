@@ -56,7 +56,7 @@ function Home ()
             <AnimationOnScroll className='card home-card' animateIn="animate__fadeInUp animate__slower">
               <div className='card-body'>
                 <h1 className='text-center home-card-h1 linear-text fw-bold'>For Developers</h1>
-                <p className=' text-center w-75 mx-auto home-card-p my-3'>Xend Finance has created a highly flexible and robust infrastructure to become a Layer-2 DeFi protocol. Composed of multiple Layer-1 DeFi protocols across different blockchains to provide better yields, as opposed to using Layer-1 DeFi yield platforms individually, we invite developers to build for free.</p>
+                <p className=' text-center w-75 mx-auto home-card-p my-3'>GB Finance has created a highly flexible and robust infrastructure to become a Layer-2 DeFi protocol. Composed of multiple Layer-1 DeFi protocols across different blockchains to provide better yields, as opposed to using Layer-1 DeFi yield platforms individually, we invite developers to build for free.</p>
                 <div className='d-flex flex-row align-items-center justify-content-center'>
                   <a href='https://www.npmjs.com/package/@xend-finance/web-sdk' target='_blank' rel='noreferrer'>
                     <button className='sdk-btn mx-2'><i className='me-2'><FiDownload /></i>Download SDK</button></a>

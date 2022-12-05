@@ -55,25 +55,25 @@ function Token ()
     } );
   }
 
-  function copy2 ()
-  {
-    navigator.clipboard.writeText( '0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903' );
-    Toast.fire( {
-      icon: 'success',
-      title: 'Code Copied Successfully'
-    } );
+  // function copy2 ()
+  // {
+  //   navigator.clipboard.writeText( '0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903' );
+  //   Toast.fire( {
+  //     icon: 'success',
+  //     title: 'Code Copied Successfully'
+  //   } );
 
-  }
+  // }
 
 
-  function copy3 ()
-  {
-    navigator.clipboard.writeText( '0x86775d0B80B3df266AF5377dB34Ba8f318d715ec' );
-    Toast.fire( {
-      icon: 'success',
-      title: 'Code Copied Successfully'
-    } );
-  }
+  // function copy3 ()
+  // {
+  //   navigator.clipboard.writeText( '0x86775d0B80B3df266AF5377dB34Ba8f318d715ec' );
+  //   Toast.fire( {
+  //     icon: 'success',
+  //     title: 'Code Copied Successfully'
+  //   } );
+  // }
   return (
     <>
       <div className='container py-5'>
@@ -82,9 +82,9 @@ function Token ()
 
             <div className='col-lg-6 col-12'>
               <div className='token-div-1'>
-                <h1 className='token-h2 linear-text'>$XEND Token</h1>
-                <p className='token-h6 mt-2 mb-4'>The Xend token ($XEND) powers a decentralized savings and cross-chain high yield aggregator protocol. The $XEND tokens also generate interest for the users as they hold on to the tokens.</p>
-                <h5 className=' token-h5'>Xend Finance Tokens have been issued on below public chains:</h5>
+                <h1 className='token-h2 linear-text'>$GB Token</h1>
+                <p className='token-h6 mt-2 mb-4'>The GB token ($GB) powers a decentralized savings and cross-chain high yield aggregator protocol. The $XEND tokens also generate interest for the users as they hold on to the tokens.</p>
+                <h5 className=' token-h5'>GB Finance Tokens have been issued on below public chains:</h5>
 
                 <div className='token-copy-div'>
                   <div className='token-1 d-flex align-items-center justify-content-around mt-4'>
@@ -92,14 +92,22 @@ function Token ()
                       <img src={bscToken} alt="" />
                     </div>
                     <div className='token-text-sec mx-4 overflow-hidden'>
-                      <h4 className='token-h4 mt-4'>Binance Smart Chain</h4>
+                      <h4 className='token-h4 mt-1'>Binance Smart Chain</h4>
                       <p className='token-p'>0x4a080377f83d669d7bb83b3184a8a5e61b500608
                       </p>
                     </div>
                     <div className='copy-icon' onClick={() => copy1()}><i className='fs-2'><MdContentCopy /></i></div>
                   </div>
 
-                  <div className='token-1 d-flex align-items-center mt-4 justify-content-around'>
+                  <div className=' d-flex align-items-center justify-content-start ms-5 ps-2 mt-4'>
+                    <h2 className='token-h4 h5 fw-bold'>Coming Soon...</h2>
+                  </div>
+
+                  <div className=' d-flex align-items-center justify-content-start ms-5 ps-2 mt-3'>
+                    <h2 className='token-h4 h5 fw-bold'>Coming Soon...</h2>
+                  </div>
+
+                  {/* <div className='token-1 d-flex align-items-center mt-4 justify-content-around'>
                     <div className='token-img-div '>
                       <img src={ethereum} alt="" />
                     </div>
@@ -121,7 +129,7 @@ function Token ()
                       </p>
                     </div>
                     <div className='copy-icon' onClick={() => copy3()}><i className='fs-2'><MdContentCopy /></i></div>
-                  </div>
+                  </div> */}
 
                 </div>
               </div>
@@ -141,8 +149,8 @@ function Token ()
 
 
       <div className='container text-center mt-5 pb-md-5'>
-        <h1 className='here-h1 linear-text'>Get $XEND Here</h1>
-        <h5 className='here-h5 my-3'>Exchanges that offers $XEND Tokens</h5>
+        <h1 className='here-h1 linear-text'>Get $GB Here</h1>
+        <h5 className='here-h5 my-3'>Exchanges that offers $GB Tokens</h5>
         <button className='here-btn'><span className='me-2'><img src={coinImg} alt='img' className='here-img' /></span>pancakeswap<i className='ms-2'><HiExternalLink /></i></button>
       </div>
     </>

@@ -16,12 +16,12 @@ function H1 ()
                 <ul className='ms-3 mt-4 h1-ul'>
                   <li>Acquiring up to 500,000 users</li>
                   <li>Growing TVL up to $50m</li>
-                  <li>Launching more projects on Xend Launchpad</li>
+                  <li>Launching more projects on GB Launchpad</li>
                 </ul>
               </div>
             </div>
             <div className='col-lg-6 col-12'>
-              <div classNam50e='h1-div-2 pt-lg-0 pt-5'>
+              <div className='h1-div-2 pt-lg-0 pt-5'>
                 <h1 className='h1-h1 mb-4'><img src={dev} alt="" className='me-3' width={50} />Development</h1>
                 <ul className=' h1-ul'>
                   <li>Launching of Alpha version Cross Chain</li>
@@ -41,7 +41,7 @@ function H1 ()
                   <li>Multiple digital asset support on mobile app</li>
                   <li>Staking support on mobile app</li>
                   <li>Development of xVault on Polygon</li>
-                  <li>Scaling XendBridge to support multiple local currencies such as KES, USD, Euro etc</li>
+                  {/* <li>Scaling GB Bridge to support multiple local currencies such as KES, USD, Euro etc</li> */}
                 </ul>
               </div>
             </div>

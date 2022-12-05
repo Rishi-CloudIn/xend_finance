@@ -12,7 +12,7 @@ function Contact ()
     <>
       <div className='container contact-container' id="Contact">
         <div className='contact-content-div'>
-          <h1 className='h1 fw-bold text-center'>Contact Us</h1>
+          <h1 className='h1 fw-bold text-center linear-text'>Contact Us</h1>
           <div className='row'>
             <div className='col-md-5 d-md-block d-none'>
               <div className='contact-img-div'>

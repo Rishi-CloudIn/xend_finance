@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import logo from '../Images/GB_Fin/GFIN_Logo.svg';
 import './Navbar.css';
 import navBus from '../Images/business-nav.svg';
@@ -11,7 +11,7 @@ import { Link } from 'react-scroll';
 function Navbar ()
 {
 
-
+  const wrapperRef = useRef;
   let navigate = useNavigate();
   const [ nav, setNav ] = useState( true );
   const [ color, setColor ] = useState( false );
@@ -50,6 +50,17 @@ function Navbar ()
     }
   };
 
+  const handleClickOutside = ( event ) =>
+  {
+    if (
+      wrapperRef.current &&
+      !wrapperRef.current.contains( event.target )
+    )
+    {
+      setInnerNav( false );
+    }
+  };
+
   window.addEventListener( "scroll", changeColor );
   function handleClick ()
   {
@@ -70,8 +81,8 @@ function Navbar ()
 
   return (
     <>
-      <nav>
-        <div className='container-fluid navbar-container px-0'>
+      <nav >
+        <div className='container-fluid navbar-container px-0' >
           <div className={color ? 'navbar-content-div navbar-bg d-flex flex-row justify-content-between py-3 ' : 'navbar-content-div d-flex flex-row justify-content-between py-3 '}>
             <div className='navbar-logo'>
               <img src={logo} alt="img" />

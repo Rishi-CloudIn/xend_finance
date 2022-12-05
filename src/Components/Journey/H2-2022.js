@@ -35,7 +35,7 @@ function H2 ()
                       <li>Customized Wallet Skins</li>
                     </ul>
                   </li>
-                  <li>Support of XendBridge on Cross Chain DeFi browser extension wallet</li>
+                  {/* <li>Support of GB Bridge on Cross Chain DeFi browser extension wallet</li> */}
                   <li>Development of Cross Chain DeFi browser wallet on mobile.</li>
                 </ul>
               </div>

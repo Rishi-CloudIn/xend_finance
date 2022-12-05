@@ -15,7 +15,7 @@ function TechBbenefits ()
       <div className='container'>
         <div className='feature-content-div pb-5'>
           <h1 className='here-h2 text-center linear-text'>Benefits</h1>
-          <h5 className='here-h5 text-center'>Xend Finance has created a highly flexible and robust infrastructure to become a Layer-2 DeFi protocol.</h5>
+          <h5 className='here-h5 text-center'>GB Finance has created a highly flexible and robust infrastructure to become a Layer-2 DeFi protocol.</h5>
 
           <div className='feature-div'>
             <div className='row'>

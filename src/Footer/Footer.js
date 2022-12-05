@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logowhite from '../Images/Footer/logo-white.svg';
+import logowhite from '../Images/GB_Fin/G.svg';
 import tidal from '../Images/Footer/tidal.svg';
 
 
@@ -14,13 +14,13 @@ function Footer ()
             <div className='col-md-3 col-12'>
               <div className='footer-col-1'>
                 <div className='footer-img-div'>
-                  <img src={logowhite} alt="img" />
+                  <img src={logowhite} alt="img" width={50} />
                 </div>
                 <p className='footer-p mt-3'>
                   Get our Monthtly Newsletters
                 </p>
                 <button className='footer-btn my-4'>Subscribe</button>
-                <p className='footer-p mb-0 mt-4'>Insured for up to $300 Million by</p>
+                <p className='footer-p mb-0 mt-4'>Insured up to $100 Million will be in</p>
                 <img src={tidal} alt="" width='60%' className='mt-2' />
               </div>
             </div>
@@ -52,14 +52,14 @@ function Footer ()
                 <div className='footer-inner'>
                   <h5 className='footer-h5'>Products</h5>
                   <div className='footer-ul mt-3'>
-                    <p><a href='void:'>Xend Mobile</a></p>
+                    {/* <p><a href='void:'>GB Mobile</a></p> */}
                     <p><a href='void:'>Vault</a></p>
                     <p><a href='void:'>Staking</a></p>
                     <p><a href='void:'>SDK</a></p>
                     <p><a href='void:'>Lauchpad</a></p>
-                    <p><a href='void:'>XEND Token</a></p>
-                    <p><a href='void:'>X-Wallet</a></p>
-                    <p><a href='void:'>XendBridge</a></p>
+                    <p><a href='void:'>GB Token</a></p>
+                    <p><a href='void:'>GB-Wallet</a></p>
+                    {/* <p><a href='void:'>XendBridge</a></p> */}
                     <p><a href='void:'>SwitchWallet</a></p>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ function Footer ()
 
           <div className='policy-div d-flex flex-md-row flex-column text-md-block text-center justify-content-center pt-5'>
             <div className='policy-1'>
-              <p><a href='void:'>&#169; 2022 Xent Finance</a></p>
+              <p><a href='void:'>&#169; 2022 GB Finance</a></p>
             </div>
             <div className='policy-1 mx-5'>
               <p><a href='void:'>Privacy Policy</a></p>

@@ -16,7 +16,7 @@ function TechBSolution ()
         <div className='bus-sol-content-div py-5'>
           <h1 className='h1 fw-bold linear-text'>Business Solutions</h1>
           <h5 className='h5 text-secondary'>Complete tools to empower your business</h5>
-          <div className='row'>
+          <div className='row mb-5'>
             <div className='col-md-6 col-12 p-3'>
               <AnimationOnScroll animateIn="animate__fadeIn" className='h-100'>
                 <div className='card d-flex flex-row h-100'>
@@ -25,8 +25,8 @@ function TechBSolution ()
                   </div>
                   <div className='bus-sol-div d-flex flex-column justify-content-between'>
                     <div>
-                      <h3 className='bus-sol-h3'>SwitchWallet</h3>
-                      <p className='bus-sol-p'>SwitchWallet is a wallet service that allows developers to create and manage wallets for their users on EVM compatible blockchains as well as Bitcoin and Bitcoin Derivative blockchains.</p>
+                      <h3 className='bus-sol-h3'>GB Wallet</h3>
+                      <p className='bus-sol-p'>GB Wallet is a wallet service that allows developers to create and manage wallets for their users on EVM compatible blockchains as well as Bitcoin and Bitcoin Derivative blockchains.</p>
                     </div>
                     <div>
                       <a className='a-remove text-dark' href='void'>Learn More <i><AiOutlineArrowRight /></i></a>
@@ -45,8 +45,8 @@ function TechBSolution ()
                   </div>
                   <div className='bus-sol-div  d-flex flex-column justify-content-between'>
                     <div>
-                      <h3 className='bus-sol-h3'>Xend Finance AutoYield SDK</h3>
-                      <p className='bus-sol-p'>Our SDK enables other developers to build on the Xend Finance AutoYield protocols such as xVault and xAuto. We also have the SDK-UI which is a javascript plugin for developers that want to integrate Xend Finance directly with very little code. Our SDK makes it easy for non-blockchain developers to access DeFi.</p>
+                      <h3 className='bus-sol-h3'>GB Finance AutoYield SDK</h3>
+                      <p className='bus-sol-p'>Our SDK enables other developers to build on the GB Finance AutoYield protocols such as xVault and xAuto. We also have the SDK-UI which is a javascript plugin for developers that want to integrate GB Finance directly with very little code. Our SDK makes it easy for non-blockchain developers to access DeFi.</p>
                     </div>
                     <div>
                       <a className='a-remove text-dark' href='void'>Learn More <i><AiOutlineArrowRight /></i></a>
@@ -56,7 +56,7 @@ function TechBSolution ()
               </AnimationOnScroll>
             </div>
 
-            <div className='col-md-6 col-12 p-3'>
+            {/* <div className='col-md-6 col-12 p-3'>
               <AnimationOnScroll animateIn="animate__fadeIn" className='h-100'>
                 <div className='card d-flex flex-row h-100'>
                   <div className='bus-sol-img-div me-3'>
@@ -73,7 +73,7 @@ function TechBSolution ()
                   </div>
                 </div>
               </AnimationOnScroll>
-            </div>
+            </div> */}
           </div>
 
           <div className='py-5'>

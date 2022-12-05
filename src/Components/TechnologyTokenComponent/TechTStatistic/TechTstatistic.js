@@ -2,9 +2,9 @@ import React from 'react';
 import './TechTStatistic.css';
 import { MdContentCopy } from 'react-icons/md';
 import Binance from '../../../Images/Tech-Token/getstart/binance-smart-chain.svg';
-import Ethereum from '../../../Images/Tech-Token/getstart/Ethereum-Icon.svg';
-import huobi from '../../../Images/Tech-Token/getstart/huobi-eco-chain.svg';
-import polygon from '../../../Images/Tech-Token/getstart/polygon-eco-chain.svg';
+// import Ethereum from '../../../Images/Tech-Token/getstart/Ethereum-Icon.svg';
+// import huobi from '../../../Images/Tech-Token/getstart/huobi-eco-chain.svg';
+// import polygon from '../../../Images/Tech-Token/getstart/polygon-eco-chain.svg';
 import Swal from 'sweetalert2';
 import { HiExternalLink } from 'react-icons/hi';
 
@@ -45,44 +45,44 @@ function TechTStatistic ()
     } );
   }
 
-  function copy2 ()
-  {
-    navigator.clipboard.writeText( '0x86775d...B34Ba8f318d715ec' );
-    Toast.fire( {
-      icon: 'success',
-      title: 'Code Copied Successfully'
-    } );
+  // function copy2 ()
+  // {
+  //   navigator.clipboard.writeText( '0x86775d...B34Ba8f318d715ec' );
+  //   Toast.fire( {
+  //     icon: 'success',
+  //     title: 'Code Copied Successfully'
+  //   } );
 
-  }
+  // }
 
 
-  function copy3 ()
-  {
-    navigator.clipboard.writeText( '0xE4CFE9...68fD8Ab0F6D44903' );
-    Toast.fire( {
-      icon: 'success',
-      title: 'Code Copied Successfully'
-    } );
-  }
+  // function copy3 ()
+  // {
+  //   navigator.clipboard.writeText( '0xE4CFE9...68fD8Ab0F6D44903' );
+  //   Toast.fire( {
+  //     icon: 'success',
+  //     title: 'Code Copied Successfully'
+  //   } );
+  // }
 
-  function copy4 ()
-  {
-    navigator.clipboard.writeText( '0xA64932...B4378deAe68CE23F' );
-    Toast.fire( {
-      icon: 'success',
-      title: 'Code Copied Successfully'
-    } );
-  }
+  // function copy4 ()
+  // {
+  //   navigator.clipboard.writeText( '0xA64932...B4378deAe68CE23F' );
+  //   Toast.fire( {
+  //     icon: 'success',
+  //     title: 'Code Copied Successfully'
+  //   } );
+  // }
   return (
     <>
       <div className='container py-5'>
-        <h1 className='h1 fw-bold text-center linear-text py-4'>$Xend Token Price Statistics</h1>
+        <h1 className='h1 fw-bold text-center linear-text py-4'>$GB Token Price Statistics</h1>
         <div className='statis-content-div table-responsive-md'>
           <table className='table table-light table-bordered '>
             <tbody>
               <tr className='col-4'>
                 <td>
-                  <p className='text-secondary'>Xend Token Price</p>
+                  <p className='text-secondary'>GB Token Price</p>
                   <h6 className='h6'>$0.03296917735545847</h6>
                 </td>
                 <td className='col-4'>
@@ -116,7 +116,7 @@ function TechTStatistic ()
         <div className='py-5'>
           <div className='card bus-parter-card'>
             <div className='bus-card-inner py-4'>
-              <h1 className='bus-card-partner-h1'>Xend Finance Tokens have been issued on below public chains</h1>
+              <h1 className='bus-card-partner-h1'>GB Finance Tokens have been issued on below public chains</h1>
 
               <div className='row'>
                 <div className='col-lg-6 col-12 p-3'>
@@ -134,40 +134,43 @@ function TechTStatistic ()
 
                 <div className='col-lg-6 col-12 p-3'>
                   <div className='token-copy-card d-flex flex-sm-row flex-column align-items-center justify-content-between w-75 mx-auto mt-sm-0 mt-4'>
-                    <img src={polygon} alt="" />
+                    {/* <img src={polygon} alt="" />
                     <div className='mx-2 my-sm-0 my-2'>
                       <h6 className='text-light text-sm-start text-center'>Polygon Eco Chain</h6>
                       <p className='text-white mb-0 text-sm-start text-center'>0x86775d...B34Ba8f318d715ec</p>
                     </div>
                     <div>
                       <div><i className='fs-2 text-white cursor-pointer' onClick={() => copy2()}><MdContentCopy /></i></div>
-                    </div>
+                    </div> */}
+                    <h2 className='h3 text-secondary fw-bold'>Coming Soon.....</h2>
                   </div>
                 </div>
 
                 <div className='col-lg-6 col-12 p-3'>
                   <div className='token-copy-card d-flex flex-sm-row flex-column align-items-center justify-content-between w-75 mx-auto mt-sm-0 mt-4'>
-                    <img src={Ethereum} alt="" />
+                    {/* <img src={Ethereum} alt="" />
                     <div className='mx-2 my-sm-0 my-2'>
                       <h6 className='text-light text-sm-start text-center'>Ethereum</h6>
                       <p className='text-white mb-0 text-sm-start text-center' onClick={() => copy3()}>0xE4CFE9...68fD8Ab0F6D44903</p>
                     </div>
                     <div>
                       <div><i className='fs-2 text-white cursor-pointer'><MdContentCopy /></i></div>
-                    </div>
+                    </div> */}
+                    <h2 className='h3 text-secondary fw-bold'>Coming Soon.....</h2>
                   </div>
                 </div>
 
                 <div className='col-lg-6 col-12 p-3'>
                   <div className='token-copy-card d-flex flex-sm-row flex-column align-items-center justify-content-between w-75 mx-auto mt-sm-0 mt-4'>
-                    <img src={huobi} alt="" />
+                    {/* <img src={huobi} alt="" />
                     <div className='mx-2 my-sm-0 my-2'>
                       <h6 className='text-light text-sm-start text-center'>Huobi Eco Chain</h6>
                       <p className='text-white mb-0 text-sm-start text-center'>0xA64932...B4378deAe68CE23F</p>
                     </div>
                     <div>
                       <div><i className='fs-2 text-white cursor-pointer' onClick={() => copy4()}><MdContentCopy /></i></div>
-                    </div>
+                    </div> */}
+                    <h2 className='h3 text-secondary fw-bold'>Coming Soon.....</h2>
                   </div>
                 </div>
               </div>
@@ -176,7 +179,7 @@ function TechTStatistic ()
         </div>
 
         <div className='container text-center mt-5'>
-          <h1 className='here-h1 linear-text'>Get $XEND Here</h1>
+          <h1 className='here-h1 linear-text'>Get $GB Here</h1>
           <h5 className='here-h5 my-3'>Exchanges that offers $XEND Tokens</h5>
           <div>
             <a href='void:' className='m-2'>

@@ -36,6 +36,7 @@ function TechBHome ()
 
           <div className='container'>
             <div className='bus-officer py-5'>
+              <h1 className='h2 my-3 text-center fw-bold linear-text'>Inspired By</h1>
               <div className='row'>
                 <div className='col-lg-4 col-12 p-3'>
                   <div className='bus-officer-div d-flex flex-row'>
