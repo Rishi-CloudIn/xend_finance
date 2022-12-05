@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import logo from '../Images/GB_Fin/GFIN_Logo.svg';
 import './Navbar.css';
 import navBus from '../Images/business-nav.svg';
@@ -11,7 +11,7 @@ import { Link } from 'react-scroll';
 function Navbar ()
 {
 
-  const wrapperRef = useRef;
+  const wrapperRef = useRef();
   let navigate = useNavigate();
   const [ nav, setNav ] = useState( true );
   const [ color, setColor ] = useState( false );
@@ -39,6 +39,9 @@ function Navbar ()
     setNav( !nav );
   };
 
+
+
+
   const changeColor = () =>
   {
     if ( window.scrollY >= 100 )
@@ -49,7 +52,17 @@ function Navbar ()
       setColor( false );
     }
   };
+  
+  // outside click hide
 
+  const handleHideDropdown = ( event ) =>
+  {
+    if ( event.key === 'Escape' )
+    {
+      setInnerNav1( false );
+      setInnerNav( false );
+    }
+  };
   const handleClickOutside = ( event ) =>
   {
     if (
@@ -58,8 +71,24 @@ function Navbar ()
     )
     {
       setInnerNav( false );
+      setInnerNav1( false );
+      setNav( !nav );
     }
   };
+
+
+  useEffect( () =>
+  {
+    document.addEventListener( 'keydown', handleHideDropdown, true );
+    document.addEventListener( 'click', handleClickOutside, true );
+    return () =>
+    {
+      document.removeEventListener( 'keydown', handleHideDropdown, true );
+      document.removeEventListener( 'click', handleClickOutside, true );
+    };
+  } );
+
+  // handleClickOutside();
 
   window.addEventListener( "scroll", changeColor );
   function handleClick ()
@@ -82,7 +111,7 @@ function Navbar ()
   return (
     <>
       <nav >
-        <div className='container-fluid navbar-container px-0' >
+        <div className='container-fluid navbar-container px-0' ref={wrapperRef}>
           <div className={color ? 'navbar-content-div navbar-bg d-flex flex-row justify-content-between py-3 ' : 'navbar-content-div d-flex flex-row justify-content-between py-3 '}>
             <div className='navbar-logo'>
               <img src={logo} alt="img" />

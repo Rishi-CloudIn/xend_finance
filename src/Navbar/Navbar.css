@@ -127,7 +127,7 @@
 .nav-inner-ul-active {
   display: block;
   position: absolute;
-  top: 70%;
+  top: 65px;
   background-color: white;
   width: 400px;
   max-width: 400px;
@@ -142,7 +142,7 @@
 .nav-inner-ul-active-1 {
   display: block;
   position: absolute;
-  top: 100%;
+  top: 65px;
   background-color: white;
   width: 400px;
   max-width: 400px;
@@ -174,7 +174,7 @@
   .nav-inner-ul-active {
     display: block;
     position: absolute;
-    top: 380%;
+    top: 750px;
     left: 50%;
     transform: translate(-50%, -380%);
     background-color: white;
@@ -187,7 +187,7 @@
   .nav-inner-ul-active-1 {
     display: block;
     position: absolute;
-    top: 295%;
+    top: 650px;
     left: 50%;
     transform: translate(-50%, -380%);
     background-color: white;
