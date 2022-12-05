@@ -174,7 +174,7 @@
   .nav-inner-ul-active {
     display: block;
     position: absolute;
-    top: 750px;
+    top: 757px;
     left: 50%;
     transform: translate(-50%, -380%);
     background-color: white;

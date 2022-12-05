@@ -12,9 +12,9 @@ function Community ()
           <p className='journey-p text-center'>Be the first to learn about company updates, product launches, and giveaways.</p>
           <div className='row d-flex flex-wrap'>
             <div className='col-xl-2 col-md-3 col-sm-4 col-6 p-2 '>
-              <div className="dropdown ">
+              <div className="dropdown  ">
                 <Dropdown>
-                  <Dropdown.Toggle id="dropdown-basic">
+                  <Dropdown.Toggle id="dropdown-basic" className=' mx-md-0 mx-auto'>
                     <i className='me-2'><BsTelegram /></i><span className='me-2'>Telegram</span>
                   </Dropdown.Toggle>
 
@@ -38,43 +38,43 @@ function Community ()
 
             <div className='col-xl-2 col-md-3 col-sm-4 col-6 p-2 '>
               <div className="dropdown">
-                <a className='btn-community btn a-remove' href='https://twitter.com/xendfinance' target='_blank' rel='noreferrer'><i className='me-3'><BsTwitter /></i>Twitter</a>
+                <a className='btn-community mx-md-0 mx-auto btn a-remove' href='https://twitter.com/xendfinance' target='_blank' rel='noreferrer'><i className='me-3'><BsTwitter /></i>Twitter</a>
               </div>
             </div>
 
             <div className='col-xl-2 col-md-3 col-sm-4 col-6  p-2'>
               <div className="dropdown">
-                <a className='btn-community btn a-remove' href='https://www.youtube.com/channel/UCcR2lTpYwCws-axra4AAO8Q/featured' target='_blank' rel='noreferrer' ><i className='me-3'><BsYoutube /></i>Youtube</a>
+                <a className='btn-community  mx-md-0 mx-auto btn a-remove' href='https://www.youtube.com/channel/UCcR2lTpYwCws-axra4AAO8Q/featured' target='_blank' rel='noreferrer' ><i className='me-3'><BsYoutube /></i>Youtube</a>
               </div>
             </div>
 
             <div className='col-xl-2 col-md-3 col-sm-4 col-6 p-2'>
               <div className="dropdown">
-                <a className='btn-community btn a-remove' href='https://www.reddit.com/r/XendFinance/' target='_blank' rel='noreferrer' ><i className='me-3'><BsReddit /></i>Reddit</a>
+                <a className='btn-community   mx-md-0 mx-auto btn a-remove' href='https://www.reddit.com/r/XendFinance/' target='_blank' rel='noreferrer' ><i className='me-3'><BsReddit /></i>Reddit</a>
               </div>
             </div>
 
             <div className='col-xl-2 col-md-3 col-sm-4 col-6  p-2'>
               <div className="dropdown">
-                <a className='btn-community btn a-remove' href='https://discord.io/xendfinance' target='_blank' rel='noreferrer'><i className='me-3'><BsDiscord /></i>Discord</a>
+                <a className='btn-community  mx-md-0 mx-auto btn a-remove' href='https://discord.io/xendfinance' target='_blank' rel='noreferrer'><i className='me-3'><BsDiscord /></i>Discord</a>
               </div>
             </div>
 
             <div className='col-xl-2 col-md-3 col-sm-4 col-6  p-2'>
               <div className="dropdown">
-                <a className='btn-community btn a-remove' href='https://medium.com/xendfinance' target='_blank' rel='noreferrer'><i className='me-3'><BsMedium /></i>Medium</a>
+                <a className='btn-community  mx-md-0 mx-auto btn a-remove' href='https://medium.com/xendfinance' target='_blank' rel='noreferrer'><i className='me-3'><BsMedium /></i>Medium</a>
               </div>
             </div>
 
             <div className='col-xl-2 col-md-3 col-sm-4 col-6 p-2'>
               <div className="dropdown">
-                <a className='btn-community btn a-remove' href='https://www.facebook.com/XendFinance?_rdc=1&_rdr' target='_blank' rel='noreferrer'><i className='me-3'><BsFacebook /></i>Facebook</a>
+                <a className='btn-community  mx-md-0 mx-auto btn a-remove' href='https://www.facebook.com/XendFinance?_rdc=1&_rdr' target='_blank' rel='noreferrer'><i className='me-3'><BsFacebook /></i>Facebook</a>
               </div>
             </div>
 
             <div className='col-xl-2 col-md-3 col-sm-4 col-6 p-2'>
               <div className="dropdown">
-                <a className='btn-community btn a-remove' href='https://github.com/xendfinance' target='_blank' rel='noreferrer'><i className='me-3'><BsGithub /></i>Github</a>
+                <a className='btn-community  mx-md-0 mx-auto btn a-remove' href='https://github.com/xendfinance' target='_blank' rel='noreferrer'><i className='me-3'><BsGithub /></i>Github</a>
               </div>
             </div>
           </div>
