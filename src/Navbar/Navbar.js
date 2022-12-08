@@ -91,16 +91,17 @@ function Navbar ()
   // handleClickOutside();
 
   window.addEventListener( "scroll", changeColor );
+  // eslint-disable-next-line no-unused-vars
   function handleClick ()
   {
     setNav( { clicked: !nav.clicked } );
   }
-
+  // eslint-disable-next-line no-unused-vars
   function handleInner ()
   {
     setInnerNav( { clicked: !innerNav.clicked } );
   }
-
+  // eslint-disable-next-line no-unused-vars
   function handleInner1 ()
   {
     setInnerNav1( { clicked: !innerNav1.clicked } );
@@ -120,7 +121,10 @@ function Navbar ()
             <div className={!nav ? 'nav-ul-div my-auto' : 'nav-ul-div-hide my-auto'}>
               <ul className='nav-ul d-flex flex-md-row flex-column justify-content-around m-0 p-0 align-items-center'>
                 <li className='nav-li me-4'>
-                  <NavLink className='uc' to='/' onClick={() => setNav( !nav )}>Home</NavLink>
+                  <NavLink className='uc' onClick={() =>
+                  {
+                    setNav( !nav );
+                  }}>Home</NavLink>
                 </li>
                 <li className='nav-li me-4'>
                   <NavLink className='uc' onClick={() => setInnerNav1( !innerNav1 )}>About</NavLink>
