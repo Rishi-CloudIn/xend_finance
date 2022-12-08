@@ -27,7 +27,7 @@ function Home ()
 
 
 
-              <a className='a-remove' href='https://play.google.com/store/apps/details?id=com.xendmobile' target='_blank' rel='noreferrer'>
+              <a className='a-remove' href='void:' target='_blank' rel='noreferrer'>
                 <button className='home-btn d-flex align-item-center m-3'>
                   <i className='my-auto me-3 ms-1'><FaGooglePlay /></i>
                   <p className='text-start '>
@@ -36,14 +36,14 @@ function Home ()
                 </button>
               </a>
 
-              <a className='a-remove' href='https://apps.apple.com/us/app/xend-finance/id1587050825' target='_blank' rel='noreferrer'>
+              <a className='a-remove' href='void:' target='_blank' rel='noreferrer'>
                 <button
                   className='home-btn d-flex align-item-center m-3'><i className='my-auto me-3 ms-1'><BsApple /></i>
                   <p className='text-start '><span className='btn-small-text uc'>download on</span><br /><span>App Store</span>
                   </p>
                 </button>
               </a>
-              <a className='a-remove' href='https://mega.nz/file/Io1gDKRL#fEaJyqyY9ePSRw79qVjvV3X2ARtUHVFzv4LEpCp1ak4' target='_blank' rel='noreferrer'>
+              <a className='a-remove' href='void:' target='_blank' rel='noreferrer'>
                 <button
                   className='home-btn d-flex align-item-center m-3'>
                   <i className='my-auto me-3 ms-1'><ImAndroid /></i>
@@ -56,9 +56,9 @@ function Home ()
               <img src={homeMock} alt="" />
             </AnimationOnScroll>
           </div>
-
-
         </div>
+
+
         <div className='container'>
           <div className='home-card-div'>
             <AnimationOnScroll className='card home-card' animateIn="animate__fadeInUp animate__slower">
@@ -71,7 +71,6 @@ function Home ()
                   <button className='sdk-learn-btn mx-2'>Learn More <i><IoMdArrowRoundForward /></i></button>
                 </div>
               </div>
-
             </AnimationOnScroll>
           </div>
         </div>
