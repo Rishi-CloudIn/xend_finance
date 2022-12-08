@@ -114,7 +114,7 @@ function Navbar ()
         <div className='container-fluid navbar-container px-0' ref={wrapperRef}>
           <div className={color ? 'navbar-content-div navbar-bg d-flex flex-row justify-content-between py-3 ' : 'navbar-content-div d-flex flex-row justify-content-between py-3 '}>
             <div className='navbar-logo' >
-              <img src={logo} alt="img" onClick={() => navigate( '/' )} />
+              <img src={logo} alt="img" />
             </div>
 
             <div className={!nav ? 'nav-ul-div my-auto' : 'nav-ul-div-hide my-auto'}>
