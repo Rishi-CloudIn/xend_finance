@@ -46,3 +46,13 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
 }
+
+.title-text {
+  font-size: 3.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .title-text {
+    font-size: 2rem;
+  }
+}

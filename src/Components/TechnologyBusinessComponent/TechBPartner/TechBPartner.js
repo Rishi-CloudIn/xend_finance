@@ -1,13 +1,13 @@
 import React from 'react';
-import hashkey from '../../../Images/Tech-Business/partner/haskey.svg';
-import google from '../../../Images/Tech-Business/partner/google-launchpad-2.svg';
-import amplifi from '../../../Images/Tech-Business/partner/amplifi.svg';
-import au21 from '../../../Images/Tech-Business/partner/au21.svg';
-import binance from '../../../Images/Tech-Business/partner/binance.svg';
-import delta from '../../../Images/Tech-Business/partner/delta-hub.svg';
-import longhash from '../../../Images/Tech-Business/partner/long-hash.svg';
-import ngc from '../../../Images/Tech-Business/partner/ngc.svg';
-import apex from '../../../Images/Tech-Business/partner/twin-apex.svg';
+// import hashkey from '../../../Images/Tech-Business/partner/haskey.svg';
+// import google from '../../../Images/Tech-Business/partner/google-launchpad-2.svg';
+// import amplifi from '../../../Images/Tech-Business/partner/amplifi.svg';
+// import au21 from '../../../Images/Tech-Business/partner/au21.svg';
+// import binance from '../../../Images/Tech-Business/partner/binance.svg';
+// import delta from '../../../Images/Tech-Business/partner/delta-hub.svg';
+// import longhash from '../../../Images/Tech-Business/partner/long-hash.svg';
+// import ngc from '../../../Images/Tech-Business/partner/ngc.svg';
+// import apex from '../../../Images/Tech-Business/partner/twin-apex.svg';
 import './TechBPartner.css';
 
 function TechBPartner ()
@@ -15,8 +15,8 @@ function TechBPartner ()
   return (
     <>
       <div className='container bus-partner'>
-        <h1 className='h1 text-center fw-bold mb-4 linear-text'>Investment and Business Partners</h1>
-        <div className='row justify-content-center'>
+        {/* <h1 className='h1 text-center fw-bold mb-4 linear-text'>Investment and Business Partners</h1> */}
+        {/* <div className='row justify-content-center'>
           <div className="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
             <div className='card'>
               <div className='bus-partner-img d-flex align-items-center justify-content-center'>
@@ -89,7 +89,7 @@ function TechBPartner ()
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className='py-5'>
           <div className='card bus-parter-card'>

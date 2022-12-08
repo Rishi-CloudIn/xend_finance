@@ -11,7 +11,7 @@ function TechTHome ()
       <div className='token-container'>
         <div className='container'>
           <div className='token-content-div pb-5'>
-            <h1 className='h1 text-center fw-bold w-sm-100 w-75 mx-auto linear-text'>GB Finance Token</h1>
+            <h1 className='title-text text-center fw-bold w-sm-100 w-75 mx-auto linear-text'>GB Finance Token</h1>
             <p className='text-center py-3'>GB Finance Token ($GB) powers a decentralized savings and multi-level interest generation protocol built on Ethereum. The $GB Tokens also generate interest for the users as they hold on to the tokens. GB Finance allows Credit Unions and Individual savings operations on the smart contract.</p>
             <div className='home-btn-group d-flex flex-md-row flex-column justify-content-center align-items-center'>
             </div>
@@ -34,7 +34,7 @@ function TechTHome ()
                   <p className='token-home-p'>The GB-vault system is a system that implements multiple yield generation strategies that automatically seek out the highest yields available in DeFi. These x-vaults accept your deposit, then the vault system distributes the funds through multiple strategies, which automatically seek out the best yields (inspired by yearn vaults). Supported Blockchains: BSC and Polygon.</p>
                 </div>
               </div>
-    
+
               <div className='col-lg-4 col-12 p-3'>
                 <div className='card token-home-div-1 h-100'>
                   <img src={governance} alt="" width={70} />

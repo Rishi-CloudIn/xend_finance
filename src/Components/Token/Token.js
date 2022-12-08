@@ -98,38 +98,45 @@ function Token ()
                     </div>
                     <div className='copy-icon' onClick={() => copy1()}><i className='fs-2'><MdContentCopy /></i></div>
                   </div>
-
+                  {/* 
                   <div className=' d-flex align-items-center justify-content-start ms-5 ps-2 mt-4'>
                     <h2 className='token-h4 h5 fw-bold'>Coming Soon...</h2>
                   </div>
 
                   <div className=' d-flex align-items-center justify-content-start ms-5 ps-2 mt-3'>
                     <h2 className='token-h4 h5 fw-bold'>Coming Soon...</h2>
-                  </div>
+                  </div> */}
 
-                  {/* <div className='token-1 d-flex align-items-center mt-4 justify-content-around'>
+                  <div className='token-1 d-flex align-items-center mt-4 justify-content-start'>
                     <div className='token-img-div '>
                       <img src={ethereum} alt="" />
                     </div>
-                    <div className='token-text-sec mx-4 overflow-hidden'>
+
+                    <div className=' d-flex align-items-center justify-content-start ms-4 mt-3'>
+                      <h2 className='token-h4 h5 fw-bold'>Coming Soon...</h2>
+                    </div>
+                    {/* <div className='token-text-sec mx-4 overflow-hidden'>
                       <h4 className='token-h4'>Ethereum</h4>
                       <p className='token-p'>0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903
                       </p>
-                    </div>
-                    <div className='copy-icon' onClick={() => copy2()}><i className='fs-2'><MdContentCopy /></i></div>
+                    </div> */}
+                    {/* <div className='copy-icon' onClick={() => copy2()}><i className='fs-2'><MdContentCopy /></i></div> */}
                   </div>
 
-                  <div className='token-1 d-flex align-items-center mt-4 justify-content-around'>
+                  <div className='token-1 d-flex align-items-center mt-4 justify-content-start'>
                     <div className='token-img-div'>
                       <img src={polygon} alt="" />
                     </div>
-                    <div className='token-text-sec mx-4 overflow-hidden'>
+                    <div className=' d-flex align-items-center justify-content-start ms-4 mt-3'>
+                      <h2 className='token-h4 h5 fw-bold'>Coming Soon...</h2>
+                    </div>
+                    {/* <div className='token-text-sec mx-4 overflow-hidden'>
                       <h4 className='token-h4'>Polygon Eco Chain</h4>
                       <p className='token-p'>0x86775d0B80B3df266AF5377dB34Ba8f318d715ec
                       </p>
-                    </div>
-                    <div className='copy-icon' onClick={() => copy3()}><i className='fs-2'><MdContentCopy /></i></div>
-                  </div> */}
+                    </div> */}
+                    {/* <div className='copy-icon' onClick={() => copy3()}><i className='fs-2'><MdContentCopy /></i></div> */}
+                  </div>
 
                 </div>
               </div>

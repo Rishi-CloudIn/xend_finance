@@ -1,9 +1,9 @@
 import React from 'react';
 import './Home.css';
-import { FaGooglePlay } from 'react-icons/fa';
+// import { FaGooglePlay } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
-import { BsApple } from 'react-icons/bs';
-import { ImAndroid } from 'react-icons/im';
+// import { BsApple } from 'react-icons/bs';
+// import { ImAndroid } from 'react-icons/im';
 import { IoMdArrowRoundForward } from 'react-icons/io';
 import homeMock from '../../Images/GB_Fin/Mockup-01.svg';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
@@ -14,12 +14,16 @@ function Home ()
       <div className='container-fluid home-container'>
         <div className='container'>
           <div className='home-content-div'>
-            <h1 className='h1 text-center fw-bold linear-text'>Crypto Banking <br /> For Everyone</h1>
+            <h1 className='title-text text-center fw-bold linear-text'>Crypto Banking <br /> For Everyone</h1>
             <p className='text-center py-3'>Easily Convert Your Local Currency And Save In Stable Crypto Or US Dollars <br />
               <span className='linear-text'>Earn Up To 15% Annual Interest</span></p>
             <div className='home-btn-group d-flex flex-md-row flex-column justify-content-center align-items-center'>
 
-              <a className='a-remove' href='https://play.google.com/store/apps/details?id=com.xendmobile' target='_blank' rel='noreferrer'>
+
+              <div className=' d-flex align-items-center justify-content-start mt-3'>
+                <h2 className='token-h4 h2 fw-bold'>Coming Soon...</h2>
+              </div>
+              {/* <a className='a-remove' href='https://play.google.com/store/apps/details?id=com.xendmobile' target='_blank' rel='noreferrer'>
                 <button className='home-btn d-flex align-item-center m-3'>
                   <i className='my-auto me-3 ms-1'><FaGooglePlay /></i>
                   <p className='text-start '>
@@ -41,7 +45,7 @@ function Home ()
                   <i className='my-auto me-3 ms-1'><ImAndroid /></i>
                   <p className='text-start '><span className='btn-small-text uc'>download apk</span><br /><span>Android</span>
                   </p></button>
-              </a>
+              </a> */}
             </div>
 
             <AnimationOnScroll className='home-img-div' animateIn="animate__bounceInUp animate__slower ">

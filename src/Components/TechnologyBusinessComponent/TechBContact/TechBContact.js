@@ -1,12 +1,12 @@
 import React, { useState, useRef } from 'react';
-import './Contact.css';
+// import './Contact.css';
 import Lottie from "lottie-react";
-import contact from '../../Images/lottie/contact-us-2.json';
+import contact from '../../../Images/lottie/contact-us-2.json';
 
 import { useForm } from 'react-hook-form';
 import Swal from 'sweetalert2';
 import emailjs from '@emailjs/browser';
-function Contact ()
+function TechBContact ()
 {
 
   const form = useRef();
@@ -59,7 +59,7 @@ function Contact ()
     <>
       <div className='container contact-container' id="Contact">
         <div className='contact-content-div'>
-          <h1 className='h1 fw-bold text-center linear-text'>Contact Us</h1>
+          <h1 className='h1 fw-bold text-center linear-text'>Investment and Business Partners are Welcome</h1>
           <div className='row'>
             <div className='col-md-5 d-md-block d-none'>
               <div className='contact-img-div'>
@@ -90,7 +90,11 @@ function Contact ()
                         } )}
                         onKeyUp={() =>
                         {
-                          trigger( "fullName" );
+                          trigger( "name" );
+                        }}
+                        onKeyPress={() =>
+                        {
+                          trigger( "name" );
                         }}
                       />
                       {errors.name &&
@@ -114,6 +118,10 @@ function Contact ()
                           }
                         } )}
                         onKeyUp={() =>
+                        {
+                          trigger( "email" );
+                        }}
+                        onKeyPress={() =>
                         {
                           trigger( "email" );
                         }} />
@@ -174,7 +182,7 @@ function Contact ()
                         {
                           trigger( "location" );
                         }}
-                        onKeyDown={() =>
+                        onKeyPress={() =>
                         {
                           trigger( "location" );
                         }}
@@ -189,7 +197,15 @@ function Contact ()
                         className='textarea form-input w-100'
                         placeholder='Massage' rows='5' {...register( "message", {
                           required: "Message is required",
-                        } )} />
+                        } )}
+                        onKeyUp={() =>
+                        {
+                          trigger( "message" );
+                        }}
+                        onKeyPress={() =>
+                        {
+                          trigger( "message" );
+                        }} />
                       {errors.message &&
                         ( <small className='text-danger textarea-input error-text'>{errors.message.message}</small> )}
                     </div>
@@ -206,4 +222,4 @@ function Contact ()
   );
 }
 
-export default Contact;
+export default TechBContact;
