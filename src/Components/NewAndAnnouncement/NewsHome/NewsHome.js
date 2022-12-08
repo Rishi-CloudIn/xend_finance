@@ -1,6 +1,6 @@
 import React from 'react';
 import './NewsHome.css';
-import press from '../../../Images/News_and_Announcement/xend-launches-two-african-countries.png';
+import press from '../../../Images/Blogging-bro.svg';
 
 import { AiOutlineArrowRight } from 'react-icons/ai';
 function NewsHome ()
@@ -22,11 +22,11 @@ function NewsHome ()
             <h1 className='h1 linear-text fw-bold my-2 mb-md-4'>Press Coverage</h1>
             <div className='col-md-6 d-flex align-items-center justify-content-md-start justify-content-center'>
               <div className='press-img'>
-                <img src={press} alt="" />
+                <img src={press} alt="" width={150}/>
               </div>
             </div>
             <div className='col-md-6'>
-              <div className='press-div mt-md-0 mt-4'>
+              <div className='press-div mt-md-5 mt-4'>
                 <h6 className='press-h6 text-secondary'>MEDIA/ August 3, 2022 /Disrupt Africa</h6>
                 <h2 className='press-h2'>Nigeria’s GB Finance adds to product suite of its global crypto bank</h2>
                 <p className='press-p'>The Nigeria-based GB Finance, a global crypto bank, has announced the launch of GB Bridge, a crypto payment API, and SwitchWallet, a free public wallet infrastructure.</p>
