@@ -76,7 +76,7 @@ function Token ()
   // }
   return (
     <>
-      <div className='container py-5'>
+      <div className='container py-3'>
         <div className='token-content-div px-sm-0 px-2'>
           <div className='row'>
 
@@ -155,7 +155,7 @@ function Token ()
       </div>
 
 
-      <div className='container text-center mt-5 pb-md-5'>
+      <div className='container text-center mt-md-5 mt-4 pb-md-4 pb-3'>
         <h1 className='here-h1 linear-text'>Get $GB Here</h1>
         <h5 className='here-h5 my-3'>Exchanges that offers $GB Tokens</h5>
         <button className='here-btn'><span className='me-2'><img src={coinImg} alt='img' className='here-img' /></span>pancakeswap<i className='ms-2'><HiExternalLink /></i></button>
