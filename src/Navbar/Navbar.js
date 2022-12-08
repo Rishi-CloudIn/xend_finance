@@ -72,7 +72,7 @@ function Navbar ()
     {
       setInnerNav( false );
       setInnerNav1( false );
-      setNav( !nav );
+      // setNav( !nav );
     }
   };
 
