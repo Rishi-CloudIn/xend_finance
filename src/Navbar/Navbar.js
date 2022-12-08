@@ -121,10 +121,7 @@ function Navbar ()
             <div className={!nav ? 'nav-ul-div my-auto' : 'nav-ul-div-hide my-auto'}>
               <ul className='nav-ul d-flex flex-md-row flex-column justify-content-around m-0 p-0 align-items-center'>
                 <li className='nav-li me-4'>
-                  <NavLink className='uc' onClick={() =>
-                  {
-                    setNav( !nav );
-                  }}>Home</NavLink>
+                  <NavLink className='uc' to='/' onClick={() => setNav( !nav )}>Home</NavLink>
                 </li>
                 <li className='nav-li me-4'>
                   <NavLink className='uc' onClick={() => setInnerNav1( !innerNav1 )}>About</NavLink>
