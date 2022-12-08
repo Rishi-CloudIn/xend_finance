@@ -4,7 +4,7 @@ import { HiExternalLink } from 'react-icons/hi';
 import bscToken from '../../Images/Token/bsc.svg';
 import ethereum from '../../Images/Token/ethereum.svg';
 import polygon from '../../Images/Token/polygon.svg';
-import cryptoimg from '../../Images/Token/crypto_img.jpg';
+import cryptoimg from '../../Images/Token/token.svg';
 import coinImg from '../../Images/Token/coin-img.png';
 import './Token.css';
 import Swal from 'sweetalert2';

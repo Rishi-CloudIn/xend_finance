@@ -22,7 +22,6 @@
   width: 400px;
   max-width: 400px;
   outline: none;
-  
 }
 
 .token-h4 {
@@ -46,13 +45,15 @@
 .token-crypto-img {
   width: auto;
   height: auto;
-  max-width: 500px;
+  max-width: 400px;
+  max-height: auto;
 }
 
 .token-crypto-img img {
   width: 100%;
   height: 100%;
-  margin-top: 60px;
+  /* margin-top: 60px; */
+  margin-left: 30px;
 }
 
 .token-copy-div {
@@ -60,6 +61,21 @@
   max-width: 75%;
 }
 
+@media screen and (max-width: 992px) {
+  .token-crypto-img {
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: auto;
+    margin: 20px auto;
+  }
+
+  .token-crypto-img img {
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+}
 @media screen and (max-width: 768px) {
   .token-copy-div {
     width: 100%;
