@@ -40,7 +40,7 @@ function TechBHome ()
               <div className='row'>
                 <div className='col-lg-4 col-12 p-3'>
                   <div className='bus-officer-div d-flex flex-row'>
-                    <div className='bus-officer-img me-2'>
+                    <div className='bus-officer-img me-3'>
                       <img src={officer1} alt="img" width={50} />
                     </div>
                     <div className='bus-officer-inner'>
@@ -53,7 +53,7 @@ function TechBHome ()
 
                 <div className='col-lg-4 col-12  p-3'>
                   <div className='bus-officer-div d-flex flex-row'>
-                    <div className='bus-officer-img me-2'>
+                    <div className='bus-officer-img me-3'>
                       <img src={officer2} alt="img" width={50} />
                     </div>
                     <div className='bus-officer-inner'>
@@ -66,7 +66,7 @@ function TechBHome ()
 
                 <div className='col-lg-4 col-12  p-3'>
                   <div className='bus-officer-div d-flex flex-row'>
-                    <div className='bus-officer-img me-2'>
+                    <div className='bus-officer-img me-3'>
                       <img src={officer3} alt="img" width={50} />
                     </div>
                     <div className='bus-officer-inner'>

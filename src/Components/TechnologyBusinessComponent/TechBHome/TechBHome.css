@@ -21,10 +21,11 @@
 /* bus officer */
 
 .bus-officer-h6 {
-  font-size: medium;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 18px;
 }
-
 
 .bus-officer-p {
   font-size: small;
