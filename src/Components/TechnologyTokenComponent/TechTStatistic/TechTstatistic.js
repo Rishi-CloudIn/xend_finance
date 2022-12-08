@@ -2,9 +2,9 @@ import React from 'react';
 import './TechTStatistic.css';
 import { MdContentCopy } from 'react-icons/md';
 import Binance from '../../../Images/Tech-Token/getstart/binance-smart-chain.svg';
-// import Ethereum from '../../../Images/Tech-Token/getstart/Ethereum-Icon.svg';
-// import huobi from '../../../Images/Tech-Token/getstart/huobi-eco-chain.svg';
-// import polygon from '../../../Images/Tech-Token/getstart/polygon-eco-chain.svg';
+import Ethereum from '../../../Images/Tech-Token/getstart/Ethereum-Icon.svg';
+import huobi from '../../../Images/Tech-Token/getstart/huobi-eco-chain.svg';
+import polygon from '../../../Images/Tech-Token/getstart/polygon-eco-chain.svg';
 import Swal from 'sweetalert2';
 import { HiExternalLink } from 'react-icons/hi';
 
@@ -133,44 +133,44 @@ function TechTStatistic ()
                 </div>
 
                 <div className='col-lg-6 col-12 p-3'>
-                  <div className='token-copy-card d-flex flex-sm-row flex-column align-items-center justify-content-between w-75 mx-auto mt-sm-0 mt-4'>
-                    {/* <img src={polygon} alt="" />
-                    <div className='mx-2 my-sm-0 my-2'>
+                  <div className='token-copy-card d-flex flex-sm-row flex-column align-items-center justify-content-start w-75 mx-auto mt-sm-0 mt-4'>
+                    <img src={polygon} alt="" />
+                    {/* <div className='mx-2 my-sm-0 my-2'>
                       <h6 className='text-light text-sm-start text-center'>Polygon Eco Chain</h6>
                       <p className='text-white mb-0 text-sm-start text-center'>0x86775d...B34Ba8f318d715ec</p>
                     </div>
                     <div>
                       <div><i className='fs-2 text-white cursor-pointer' onClick={() => copy2()}><MdContentCopy /></i></div>
                     </div> */}
-                    <h2 className='h3 text-secondary fw-bold'>Coming Soon.....</h2>
+                    <h2 className='h4 text-secondary fw-bold  ms-3 mt-md-1 mt-3'>Coming Soon.....</h2>
                   </div>
                 </div>
 
                 <div className='col-lg-6 col-12 p-3'>
-                  <div className='token-copy-card d-flex flex-sm-row flex-column align-items-center justify-content-between w-75 mx-auto mt-sm-0 mt-4'>
-                    {/* <img src={Ethereum} alt="" />
-                    <div className='mx-2 my-sm-0 my-2'>
+                  <div className='token-copy-card d-flex flex-sm-row flex-column align-items-center justify-content-start w-75 mx-auto mt-sm-0 mt-4'>
+                    <img src={Ethereum} alt="" />
+                    {/*<div className='mx-2 my-sm-0 my-2'>
                       <h6 className='text-light text-sm-start text-center'>Ethereum</h6>
                       <p className='text-white mb-0 text-sm-start text-center' onClick={() => copy3()}>0xE4CFE9...68fD8Ab0F6D44903</p>
                     </div>
                     <div>
                       <div><i className='fs-2 text-white cursor-pointer'><MdContentCopy /></i></div>
                     </div> */}
-                    <h2 className='h3 text-secondary fw-bold'>Coming Soon.....</h2>
+                    <h2 className='h4 text-secondary fw-bold  ms-3 mt-md-1 mt-3'>Coming Soon.....</h2>
                   </div>
                 </div>
 
                 <div className='col-lg-6 col-12 p-3'>
-                  <div className='token-copy-card d-flex flex-sm-row flex-column align-items-center justify-content-between w-75 mx-auto mt-sm-0 mt-4'>
-                    {/* <img src={huobi} alt="" />
-                    <div className='mx-2 my-sm-0 my-2'>
+                  <div className='token-copy-card d-flex flex-sm-row flex-column align-items-center justify-content-start w-75 mx-auto mt-sm-0 mt-4'>
+                    <img src={huobi} alt="" />
+                    {/* <div className='mx-2 my-sm-0 my-2'>
                       <h6 className='text-light text-sm-start text-center'>Huobi Eco Chain</h6>
                       <p className='text-white mb-0 text-sm-start text-center'>0xA64932...B4378deAe68CE23F</p>
                     </div>
                     <div>
                       <div><i className='fs-2 text-white cursor-pointer' onClick={() => copy4()}><MdContentCopy /></i></div>
                     </div> */}
-                    <h2 className='h3 text-secondary fw-bold'>Coming Soon.....</h2>
+                    <h2 className='h4 text-secondary fw-bold ms-3 mt-md-1 mt-3'>Coming Soon.....</h2>
                   </div>
                 </div>
               </div>
