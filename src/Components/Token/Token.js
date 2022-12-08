@@ -83,7 +83,7 @@ function Token ()
             <div className='col-lg-6 col-12'>
               <div className='token-div-1'>
                 <h1 className='token-h2 linear-text'>$GB Token</h1>
-                <p className='token-h6 mt-2 mb-4'>The GB token ($GB) powers a decentralized savings and cross-chain high yield aggregator protocol. The $XEND tokens also generate interest for the users as they hold on to the tokens.</p>
+                <p className='token-h6 mt-2 mb-4'>The GB token ($GB) powers a decentralized savings and cross-chain high yield aggregator protocol. The $GB tokens also generate interest for the users as they hold on to the tokens.</p>
                 <h5 className=' token-h5'>GB Finance Tokens have been issued on below public chains:</h5>
 
                 <div className='token-copy-div'>

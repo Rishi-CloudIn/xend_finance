@@ -29,7 +29,7 @@ function NewsHome ()
               <div className='press-div mt-md-0 mt-4'>
                 <h6 className='press-h6 text-secondary'>MEDIA/ August 3, 2022 /Disrupt Africa</h6>
                 <h2 className='press-h2'>Nigeria’s GB Finance adds to product suite of its global crypto bank</h2>
-                <p className='press-p'>The Nigeria-based GB Finance, a global crypto bank, has announced the launch of XendBridge, a crypto payment API, and SwitchWallet, a free public wallet infrastructure.</p>
+                <p className='press-p'>The Nigeria-based GB Finance, a global crypto bank, has announced the launch of GB Bridge, a crypto payment API, and SwitchWallet, a free public wallet infrastructure.</p>
                 <a href='void:' className='a-remove '>Read More <i><AiOutlineArrowRight /></i></a>
               </div>
             </div>
@@ -81,7 +81,7 @@ function NewsHome ()
             <div className='col-md-6  mt-md-5 mt-3'>
               <div className='press-div mt-md-0 mt-4'>
                 <h6 className='press-h6 text-secondary'>MEDIA/ July 1, 2022 /Cryptopolitan</h6>
-                <h2 className='press-h2 py-3'>Burgeoning crypto start-up, Xend finance launch in Ghana, Kenya</h2>
+                <h2 className='press-h2 py-3'>Burgeoning crypto start-up, GB finance launch in Ghana, Kenya</h2>
                 <a href='void:' className='a-remove'>Read More <i><AiOutlineArrowRight /></i></a>
               </div>
               <hr />

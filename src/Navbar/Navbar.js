@@ -27,7 +27,7 @@ function Navbar ()
 
   const handleToken = () =>
   {
-    navigate( '/XentToken' );
+    navigate( '/GB_Token' );
     setInnerNav( false );
     setNav( !nav );
   };
@@ -52,7 +52,7 @@ function Navbar ()
       setColor( false );
     }
   };
-  
+
   // outside click hide
 
   const handleHideDropdown = ( event ) =>
@@ -175,7 +175,7 @@ function Navbar ()
                         <img src={navXend} alt="" />
                       </div>
                       <div className=''>
-                        <h6 className='nav-inner-h6 mb-0'>$XEND Token</h6>
+                        <h6 className='nav-inner-h6 mb-0'>$GB Token</h6>
                         <p className='nav-inner-p mb-0'>Our token has many different use cases and advantages</p>
                       </div>
                     </div>

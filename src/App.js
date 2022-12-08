@@ -20,7 +20,7 @@ function App ()
         <Routes>
           <Route path="/" element={<HomeApp />} />
           <Route path="/Business" element={<TechBusApp />} />
-          <Route path="/XentToken" element={<TechTokenApp />} />
+          <Route path="/GB_Token" element={<TechTokenApp />} />
           <Route path="/News_And_Announcements" element={<NewsApp />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

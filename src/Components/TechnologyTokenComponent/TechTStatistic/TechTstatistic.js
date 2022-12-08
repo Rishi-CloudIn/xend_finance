@@ -102,7 +102,7 @@ function TechTStatistic ()
                 </td>
                 <td className='col-4'>
                   <p className='text-secondary'>Circulating Supply</p>
-                  <h6 className='h6'>119,060,249.4373 XEND</h6>
+                  <h6 className='h6'>119,060,249.4373 GB</h6>
                 </td>
                 <td className='col-4'>
                   <p className='text-secondary'>Total Volume</p>
@@ -180,7 +180,7 @@ function TechTStatistic ()
 
         <div className='container text-center mt-5'>
           <h1 className='here-h1 linear-text'>Get $GB Here</h1>
-          <h5 className='here-h5 my-3'>Exchanges that offers $XEND Tokens</h5>
+          <h5 className='here-h5 my-3'>Exchanges that offers $GB Tokens</h5>
           <div>
             <a href='void:' className='m-2'>
               <button className='here-btn'><span className='me-2'><img src={coinImg} alt='img' className='here-img' /></span>Gate.io<i className='ms-2'><HiExternalLink /></i></button>

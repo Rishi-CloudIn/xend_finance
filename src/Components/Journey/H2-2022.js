@@ -16,7 +16,7 @@ function H2 ()
                 <ul className='ms-3 mt-4 h1-ul'>
                   <li>Acquiring up to 1,000,000 users</li>
                   <li>Growing TVL up to $300M</li>
-                  <li>Launching more projects on Xend Launchpad</li>
+                  <li>Launching more projects on GB Launchpad</li>
                 </ul>
               </div>
             </div>
