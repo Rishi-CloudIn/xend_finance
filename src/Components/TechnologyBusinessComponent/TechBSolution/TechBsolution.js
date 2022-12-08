@@ -13,7 +13,7 @@ function TechBSolution ()
   return (
     <>
       <div className='container'>
-        <div className='bus-sol-content-div py-5'>
+        <div className='bus-sol-content-div py-5  px-sm-0 px-2'>
           <h1 className='h1 fw-bold linear-text'>Business Solutions</h1>
           <h5 className='h5 text-secondary'>Complete tools to empower your business</h5>
           <div className='row mb-5'>

@@ -77,7 +77,7 @@ function Token ()
   return (
     <>
       <div className='container py-5'>
-        <div className='token-content-div'>
+        <div className='token-content-div px-sm-0 px-2'>
           <div className='row'>
 
             <div className='col-lg-6 col-12'>

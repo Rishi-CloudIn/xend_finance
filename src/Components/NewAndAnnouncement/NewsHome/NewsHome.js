@@ -17,7 +17,7 @@ function NewsHome ()
         </div>
 
 
-        <div className='press-content-div'>
+        <div className='press-content-div  px-sm-0 px-2'>
           <div className='row'>
             <h1 className='h1 linear-text fw-bold my-2 mb-md-4'>Press Coverage</h1>
             <div className='col-md-6 d-flex align-items-center justify-content-md-start justify-content-center'>

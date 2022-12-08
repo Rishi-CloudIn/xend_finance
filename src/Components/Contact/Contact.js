@@ -58,7 +58,7 @@ function Contact ()
   return (
     <>
       <div className='container contact-container' id="Contact">
-        <div className='contact-content-div'>
+        <div className='contact-content-div px-sm-0 px-2'>
           <h1 className='h1 fw-bold text-center linear-text'>Contact Us</h1>
           <div className='row'>
             <div className='col-md-5 d-md-block d-none'>

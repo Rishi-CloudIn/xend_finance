@@ -10,14 +10,14 @@ function TechTHome ()
     <>
       <div className='token-container'>
         <div className='container'>
-          <div className='token-content-div pb-5'>
+          <div className='token-content-div pb-5 px-sm-0 px-2'>
             <h1 className='title-text text-center fw-bold w-sm-100 w-75 mx-auto linear-text'>GB Finance Token</h1>
             <p className='text-center py-3'>GB Finance Token ($GB) powers a decentralized savings and multi-level interest generation protocol built on Ethereum. The $GB Tokens also generate interest for the users as they hold on to the tokens. GB Finance allows Credit Unions and Individual savings operations on the smart contract.</p>
             <div className='home-btn-group d-flex flex-md-row flex-column justify-content-center align-items-center'>
             </div>
           </div>
 
-          <div className='token-content-div-1'>
+          <div className='token-content-div-1 px-sm-0 px-2'>
             <div className='row'>
               <div className='col-lg-4 col-12 p-3 '>
                 <div className='card token-home-div-1 h-100'>

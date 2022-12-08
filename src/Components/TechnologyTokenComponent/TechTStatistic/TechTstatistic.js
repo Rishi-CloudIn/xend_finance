@@ -75,9 +75,9 @@ function TechTStatistic ()
   // }
   return (
     <>
-      <div className='container py-5'>
+      <div className='container py-5 '>
         <h1 className='h1 fw-bold text-center linear-text py-4'>$GB Token Price Statistics</h1>
-        <div className='statis-content-div table-responsive-md'>
+        <div className='statis-content-div table-responsive-md px-sm-0 px-2'>
           <table className='table table-light table-bordered '>
             <tbody>
               <tr className='col-4'>
@@ -113,7 +113,7 @@ function TechTStatistic ()
           </table>
         </div>
 
-        <div className='py-5'>
+        <div className='py-5 px-sm-0 px-2'>
           <div className='card bus-parter-card'>
             <div className='bus-card-inner py-4'>
               <h1 className='bus-card-partner-h1'>GB Finance Tokens have been issued on below public chains</h1>
