@@ -154,7 +154,7 @@ function Navbar ()
                   <a href='void:' className='uc' >Products</a>
                 </li> */}
                 <li className='nav-li me-4'>
-                  <a href='void:' className='uc' onClick={() => setInnerNav( !innerNav )}>Technology</a>
+                  <NavLink className='uc' onClick={() => setInnerNav( !innerNav )}>Technology</NavLink >
                 </li>
                 <div className={!innerNav ? 'nav-inner-ul' : 'nav-inner-ul-active'} >
                   <div className='nav-inner-li list-remove' onClick={handleBusiness} >
